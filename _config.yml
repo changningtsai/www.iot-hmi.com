@@ -17,7 +17,7 @@
 #email: it@iot-hmi.com
 description: >- # this means to ignore newlines until "baseurl:"
   © Immense Oak Technologies 2019 - All Rights Reserved
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/www.iot-hmi.com/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
