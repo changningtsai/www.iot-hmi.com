@@ -1,0 +1,1189 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family: Avenir Next;
+}
+
+.mycontainer {
+    padding: 70px 0 70px 0;
+}
+
+.mybox {
+    border: 1px solid #a8ad00;
+    border-radius: 3px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.font-arial,
+.font-arial * {
+    font-family: Arial
+}
+
+.font-helvetica,
+.font-helvetica * {
+    font-family: Helvetica
+}
+
+.font-times,
+.font-times * {
+    font-family: times
+}
+
+.noJhengHei * {
+    font-weight: 200
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    position: relative;
+    padding-left: 1.2em;
+}
+
+/*
+a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit !important
+}
+*/
+
+#outdated #buttonUpdateBrowser {
+    border-bottom: 2px solid #fff !important
+}
+
+img,
+img.img-responsive {
+    max-width: 100%;
+    height: auto
+}
+
+img.img-responsive {
+    display: block
+}
+
+body#web {
+    margin: 0
+}
+
+header.color .menu .box {
+    border: 1px solid #000
+}
+
+header.color .menu .box .menuicon {
+    color: #000
+}
+
+header.color .menu .downpic .ww {
+    opacity: 0
+}
+
+header.color .menu .downpic .bb {
+    opacity: 1
+}
+
+header.color .headlist,
+header.color .headlist:hover {
+    background: hsla(0, 0%, 100%, .9);
+    border: 1px solid
+}
+
+header.color .headlist .list .name,
+header.color .headlist .list .name a,
+header.color .headlist .list .name a:hover {
+    color: #000
+}
+
+header.color .headlist .list .name .line {
+    background: #000
+}
+
+header.color .headlist .list .secbox .seclist .cc {
+    border: 1px solid #000
+}
+
+header,
+header.active {
+    z-index: 21
+}
+
+.myscroll {
+    overflow: scroll;
+}
+
+div.myautoscroll {
+    overflow: hidden;
+}
+
+div.myautoscroll:hover {
+    overflow: auto;
+    background-color: red;
+}
+
+div.myautoscroll p {
+    padding-left: 16px;
+}
+
+div.myautoscroll:hover p {
+    padding-left: 0px;
+}
+
+header {
+    position: fixed;
+    transition: z-index .5s;
+    -moz-transition: z-index .5s;
+    -webkit-transition: z-index .5s;
+    -o-transition: z-index .5s;
+    top: 0
+}
+
+header .celmenu {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 18px;
+    left: 10px;
+    z-index: 20;
+    display: none;
+    cursor: pointer
+}
+
+header .celmenu .hov,
+header .celmenu .nor {
+    position: absolute;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+header .celmenu .nor {
+    opacity: 1
+}
+
+header .celmenu .nor.color {
+    display: block
+}
+
+header .celmenu .nor.nocolor {
+    display: none
+}
+
+header .celmenu.active .nor,
+header .celmenu .hov {
+    opacity: 0
+}
+
+header .celmenu.active .hov {
+    opacity: 1
+}
+
+header .celmenu.color .nor.color {
+    display: none
+}
+
+header .celmenu.color .nor.nocolor {
+    display: block
+}
+
+header .logo {
+    position: fixed;
+    width: 90px;
+    height: 54px;
+    top: 45px;
+    left: 60px
+}
+
+header .logo img {
+    height: 100%
+}
+
+header .menu {
+    position: fixed;
+    width: 35px;
+    height: 120px;
+    top: 50px;
+    right: 50px;
+    cursor: pointer
+}
+
+header .menu .downpic {
+    position: relative
+}
+
+header .menu .downpic .bb,
+header .menu .downpic .ww {
+    position: absolute
+}
+
+header .menu .downpic .ww {
+    opacity: 1
+}
+
+header .menu .downpic .bb {
+    opacity: 0
+}
+
+header .menu .box {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 0 15px;
+    border-radius: 0 0 50px 50px
+}
+
+header .menu .box .menuicon {
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+    transition: margin .5s;
+    -moz-transition: margin .5s;
+    -webkit-transition: margin .5s;
+    -o-transition: margin .5s;
+    font-size: 14px;
+    color: #fff;
+    font-family: Avenir Next;
+    font-weight: 600
+}
+
+header .menu:hover .box .menuicon {
+    margin: 0 auto 20px
+}
+
+header .menu:hover .box .menuicon:last-child {
+    margin: 0 auto 5px
+}
+
+header .headlist {
+    position: fixed;
+    top: 70px;
+    right: 120px;
+    padding: 10px 0;
+    background: rgba(26, 26, 26, .5)
+}
+
+header .headlist:hover {
+    background: rgba(26, 26, 26, .9)
+}
+
+header .headlist a,
+header .headlist a:hover {
+    text-decoration: none
+}
+
+header .headlist .list {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    padding: 0;
+    max-width: 190px
+}
+
+header .headlist .list .name {
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    padding: 0 5px;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+header .headlist .list .name,
+header .headlist .list .name .tt {
+    font-weight: 700;
+    font-family: Avenir, Arial
+}
+
+header .headlist .list .name a,
+header .headlist .list .name a:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+header .headlist .list .name .line {
+    opacity: 0;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s
+}
+
+header .headlist .list .secbox {
+    margin: 0;
+    padding: 0 0 0 5px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+header .headlist .list .secbox .seclist {
+    margin: 0 0 10px;
+    position: relative
+}
+
+header .headlist .list .secbox .seclist .cc,
+header .headlist .list .secbox .seclist .name {
+    display: inline-block;
+    vertical-align: top;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+header .headlist .list .secbox .seclist .cc {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 4px 0 0;
+    position: absolute
+}
+
+header .headlist .list .secbox .seclist .name {
+    padding: 0 0 0 15px;
+    width: calc(100% - 25px);
+    font-weight: 200;
+    font-family: Avenir, Ariale;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+header .headlist .list .secbox .seclist.active .name,
+header .headlist .list .secbox .seclist:hover .name {
+    color: #a8ad00
+}
+
+header .headlist .list .secbox .seclist.active .cc,
+header .headlist .list .secbox .seclist:hover .cc {
+    background: #a8ad00;
+    border: 1px solid #a8ad00
+}
+
+header .headlist .list.active .tt,
+header .headlist .list:hover .tt {
+    color: #a8ad00
+}
+
+header .headlist .list:hover .secbox {
+    margin: 20px 0 0;
+    height: 100%;
+    opacity: 1
+}
+
+header .openmenubox {
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s
+}
+
+header .openmenubox .menubg {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 60px;
+    height: 355px;
+    z-index: 9;
+    transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transition: -webkit-transform .4s cubic-bezier(.77, 0, .175, 1) .4s;
+    transition: transform .4s cubic-bezier(.77, 0, .175, 1) .4s;
+    transition: transform .4s cubic-bezier(.77, 0, .175, 1) .4s, -webkit-transform .4s cubic-bezier(.77, 0, .175, 1) .4s;
+    -moz-transition: transform .4s cubic-bezier(.77, 0, .175, 1) .4s;
+    -webkit-transition: transform .4s cubic-bezier(.77, 0, .175, 1) .4s;
+    -o-transition: transform .4s cubic-bezier(.77, 0, .175, 1) .4s
+}
+
+header .openmenubox .close {
+    position: fixed;
+    width: 35px;
+    height: 135px;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+    transition: all .5s cubic-bezier(.77, 0, .175, 1) .4s;
+    -moz-transition: all .5s cubic-bezier(.77, 0, .175, 1) .4s;
+    -webkit-transition: all .5s cubic-bezier(.77, 0, .175, 1) .4s;
+    -o-transition: all .5s cubic-bezier(.77, 0, .175, 1) .4s
+}
+
+header .openmenubox .close .box {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 0 15px;
+    border-radius: 0 0 50px 50px
+}
+
+header .openmenubox .close .box .menuicon {
+    font-size: 14px;
+    color: #fff;
+    font-family: Avenir Next;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+    transition: margin .5s;
+    -moz-transition: margin .5s;
+    -webkit-transition: margin .5s;
+    -o-transition: margin .5s
+}
+
+header .openmenubox .close:hover .box .menuicon {
+    margin: 0 auto 20px
+}
+
+header .openmenubox .close:hover .box .menuicon:last-child {
+    margin: 0 auto 5px
+}
+
+header .openmenubox .leftbox,
+header .openmenubox .rightbox {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    transition: all .6s cubic-bezier(.77, 0, .175, 1) .3s;
+    -moz-transition: all .6s cubic-bezier(.77, 0, .175, 1) .3s;
+    -webkit-transition: all .6s cubic-bezier(.77, 0, .175, 1) .3s;
+    -o-transition: all .6s cubic-bezier(.77, 0, .175, 1) .3s
+}
+
+header .openmenubox .leftbox .btnfoot,
+header .openmenubox .rightbox .btnfoot {
+    position: absolute;
+    left: 0;
+    right: 100px;
+    margin: auto;
+    bottom: 10%;
+    width: 250px
+}
+
+header .openmenubox .leftbox .btnfoot .cart,
+header .openmenubox .leftbox .btnfoot .file,
+header .openmenubox .rightbox .btnfoot .cart,
+header .openmenubox .rightbox .btnfoot .file {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px
+}
+
+header .openmenubox .leftbox .btnfoot .cart .hov,
+header .openmenubox .leftbox .btnfoot .cart .nor,
+header .openmenubox .leftbox .btnfoot .file .hov,
+header .openmenubox .leftbox .btnfoot .file .nor,
+header .openmenubox .rightbox .btnfoot .cart .hov,
+header .openmenubox .rightbox .btnfoot .cart .nor,
+header .openmenubox .rightbox .btnfoot .file .hov,
+header .openmenubox .rightbox .btnfoot .file .nor {
+    position: absolute
+}
+
+header .openmenubox .leftbox .btnfoot .cart .hov,
+header .openmenubox .leftbox .btnfoot .file .hov,
+header .openmenubox .rightbox .btnfoot .cart .hov,
+header .openmenubox .rightbox .btnfoot .file .hov {
+    opacity: 0
+}
+
+header .openmenubox .leftbox .btnfoot .cart .nor,
+header .openmenubox .leftbox .btnfoot .cart:hover .hov,
+header .openmenubox .leftbox .btnfoot .file .nor,
+header .openmenubox .leftbox .btnfoot .file:hover .hov,
+header .openmenubox .rightbox .btnfoot .cart .nor,
+header .openmenubox .rightbox .btnfoot .cart:hover .hov,
+header .openmenubox .rightbox .btnfoot .file .nor,
+header .openmenubox .rightbox .btnfoot .file:hover .hov {
+    opacity: 1
+}
+
+header .openmenubox .leftbox .btnfoot .cart:hover .nor,
+header .openmenubox .leftbox .btnfoot .file:hover .nor,
+header .openmenubox .rightbox .btnfoot .cart:hover .nor,
+header .openmenubox .rightbox .btnfoot .file:hover .nor {
+    opacity: 0
+}
+
+header .openmenubox .leftbox .btnfoot .file,
+header .openmenubox .rightbox .btnfoot .file {
+    width: 50px;
+    height: 65px
+}
+
+header .openmenubox .leftbox .btnfoot .cart,
+header .openmenubox .rightbox .btnfoot .cart {
+    width: 75px;
+    height: 60px
+}
+
+header .openmenubox .leftbox .bg,
+header .openmenubox .leftbox .contbox,
+header .openmenubox .rightbox .bg,
+header .openmenubox .rightbox .contbox {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%
+}
+
+header .openmenubox .leftbox {
+    left: 0;
+    width: calc(40% + 50px);
+    position: relative;
+    transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%)
+}
+
+header .openmenubox .leftbox .contbox {
+    background: #fff;
+    width: calc(100% - 49px)
+}
+
+header .openmenubox .leftbox .contbox .leftlogo {
+    width: 70%;
+    max-width: 385px;
+    height: 85px;
+    margin: auto;
+    position: relative;
+    top: 35%
+}
+
+header .openmenubox .leftbox .bg {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    background: url(/images/iot/menuright.svg) 100% 100% no-repeat;
+    background-size: cover
+}
+
+header .openmenubox .rightbox {
+    right: 0;
+    width: calc(60% + 51px);
+    transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -webkit-transform: translateX(100%)
+}
+
+header .openmenubox .rightbox .celbg {
+    display: none;
+    height: 100px;
+    position: relative
+}
+
+header .openmenubox .rightbox .celbg img {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+header .openmenubox .rightbox .btnfoot {
+    right: 0;
+    position: relative;
+    display: none;
+    padding: 50px 0;
+    height: 50px
+}
+
+header .openmenubox .rightbox .btnfoot .btnlogo {
+    width: 150px;
+    height: 35px;
+    position: relative;
+    left: 10px
+}
+
+header .openmenubox .rightbox .btnfoot .cart,
+header .openmenubox .rightbox .btnfoot .file {
+    position: absolute;
+    top: 50px;
+    margin: 0
+}
+
+header .openmenubox .rightbox .btnfoot .cart {
+    right: 20px;
+    width: 45px;
+    height: 35px
+}
+
+header .openmenubox .rightbox .btnfoot .file {
+    width: 30px;
+    height: 40px;
+    right: 85px
+}
+
+header .openmenubox .rightbox .contbox {
+    width: calc(100% - 124px);
+    background: #333;
+    margin: 0 0 0 124px;
+    padding: 100px 0 50px;
+    overflow: auto
+}
+
+header .openmenubox .rightbox .contbox .menubox {
+    padding: 0;
+    height: 100%;
+    margin: 0 150px 0 0;
+    text-align: center
+}
+
+header .openmenubox .rightbox .contbox .scrollbox {
+    height: 100%
+}
+
+header .openmenubox .rightbox .contbox .box {
+    padding: 0 0 50px
+}
+
+header .openmenubox .rightbox .contbox .list {
+    font-size: 48px;
+    margin: 30px auto
+}
+
+header .openmenubox .rightbox .contbox .list a,
+header .openmenubox .rightbox .contbox .list a:hover {
+    text-decoration: none
+}
+
+header .openmenubox .rightbox .contbox .list .name {
+    color: #a8ad00;
+    transition: color .5s;
+    -moz-transition: color .5s;
+    -webkit-transition: color .5s;
+    -o-transition: color .5s;
+    font-family: Avenir Next;
+    font-weight: 700
+}
+
+header .openmenubox .rightbox .contbox .list.active .name,
+header .openmenubox .rightbox .contbox .list:hover .name {
+    color: #fff
+}
+
+header .openmenubox .rightbox .bg {
+    position: absolute
+}
+
+header .openmenubox .rightbox .bg1 {
+    width: 75px;
+    left: 50px;
+    background: url(/images/iot/menuleft.svg) 0 100% repeat-y
+}
+
+header .openmenubox .rightbox .bg2 {
+    width: 50px;
+    left: 1px;
+    background: url(/images/iot/menuleft2.svg) 0 100% no-repeat
+}
+
+header .openmenubox.active {
+    z-index: 30;
+    opacity: 1;
+    width: 100%
+}
+
+header .openmenubox.active .leftbox,
+header .openmenubox.active .rightbox {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0)
+}
+
+header .openmenubox.active .close,
+header .openmenubox.active .menubg {
+    transform: translateY 0;
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0)
+}
+
+footer {
+    position: relative;
+    z-index: 20;
+    transition: all .5s .5s;
+    -moz-transition: all .5s .5s;
+    -webkit-transition: all .5s .5s;
+    -o-transition: all .5s .5s
+}
+
+footer.active {
+    z-index: 19
+}
+
+#footerpage {
+    position: relative
+}
+
+#footerpage .footertop {
+    position: relative;
+    height: 105px;
+    width: 100%
+}
+
+#footerpage .footertop .pic1,
+#footerpage .footertop .pic2 {
+    position: absolute;
+    width: 355px;
+    height: 105px;
+    bottom: -1px
+}
+
+#footerpage .footertop .pic3 {
+    display: none
+}
+
+#footerpage .footertop .pic1 {
+    left: 0
+}
+
+#footerpage .footertop .pic2 {
+    right: 0
+}
+
+#footerpage .footertop .pic2.hide {
+    display: none
+}
+
+#footerpage .gotop {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 50px;
+    right: 120px;
+    cursor: pointer
+}
+
+#footerpage .gotop .hov,
+#footerpage .gotop .nor {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+#footerpage .gotop .hov {
+    opacity: 1
+}
+
+#footerpage .gotop .nor,
+#footerpage .gotop:hover .hov {
+    opacity: 0
+}
+
+#footerpage .gotop:hover .nor {
+    opacity: 1
+}
+
+#footerpage .gotop.down {
+    top: 150px
+}
+
+#footerpage .footerbox {
+    background: #333;
+    padding: 30px 0
+}
+
+#footerpage .footerbox .footerlogo {
+    margin: 50px auto;
+    width: 220px;
+    height: 50px
+}
+
+#footerpage .footerbox .footerlogo img {
+    height: 100%
+}
+
+#footerpage .footerbox .footertext {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Avenir Next, Avenir, Arial
+}
+
+#footerpage .footerbox .footermenu {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#footerpage .footerbox .footermenu .list {
+    font-size: 19px;
+    font-family: Avenir Next, Avenir, Arial;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px
+}
+
+#footerpage .footerbox .footermenu .list a,
+#footerpage .footerbox .footermenu .list a:hover {
+    text-decoration: none
+}
+
+#footerpage .footerbox .footermenu .list .name {
+    color: #fff;
+    padding: 0 0 10px;
+    letter-spacing: 2px;
+    font-family: Avenir Next, Avenir, Arial;
+    font-weight: 500
+}
+
+#footerpage .footerbox .footermenu .list .line {
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#footerpage .footerbox .footermenu .list.active .line,
+#footerpage .footerbox .footermenu .list:hover .line {
+    width: 75%;
+    background: #ffbc00
+}
+
+@media (max-width:1200px) {
+    #footerpage .gotop.down {
+        right: 20px;
+        top: 120px
+    }
+
+    header .openmenubox .rightbox .contbox .menubox {
+        margin: 0 120px 0 0
+    }
+
+    header .openmenubox .rightbox .contbox .list {
+        font-size: 30px
+    }
+}
+
+@media (max-width:992px) {
+    #footerpage .gotop.down {
+        top: 90px
+    }
+
+    #footerpage .footertop {
+        height: 74px
+    }
+
+    #footerpage .footertop .pic1,
+    #footerpage .footertop .pic2 {
+        width: 250px;
+        height: 74px
+    }
+
+    #footerpage .footerbox .footermenu .list {
+        margin: 20px
+    }
+
+    header .logo {
+        top: 20px;
+        left: 20px;
+        width: 65px;
+        height: 40px
+    }
+
+    header .headlist .list {
+        margin: 0 0 0 20px
+    }
+
+    header .openmenubox .leftbox .btn {
+        width: 150px
+    }
+
+    header .openmenubox .leftbox .btn .cart,
+    header .openmenubox .leftbox .btn .file {
+        margin: 15px
+    }
+
+    header .openmenubox .leftbox .btn .file {
+        width: 35px;
+        height: 46px
+    }
+
+    header .openmenubox .leftbox .btn .cart {
+        width: 55px;
+        height: 45px
+    }
+
+    header .openmenubox .leftbox {
+        width: calc(35% + 50px)
+    }
+
+    header .openmenubox .leftbox .contbox .leftlogo {
+        width: 80%
+    }
+
+    header .openmenubox .rightbox {
+        width: calc(65% + 51px)
+    }
+}
+
+@media (max-width:768px) {
+    .tt2 {
+        color: #ffffff;
+    }
+
+    #footerpage .footertop {
+        height: auto;
+        overflow: hidden
+    }
+
+    #footerpage .footertop .pic1,
+    #footerpage .footertop .pic2 {
+        display: none
+    }
+
+    #footerpage .footertop .pic3 {
+        display: block;
+        width: calc(100% + 1px)
+    }
+
+    #footerpage .footertop .pic3 img {
+        width: 100%
+    }
+
+    #footerpage .gotop,
+    #footerpage .gotop.down {
+        top: 50px;
+        right: 20px;
+        width: 35px;
+        height: 35px
+    }
+
+    #footerpage .gotop.down .hov,
+    #footerpage .gotop.down .nor,
+    #footerpage .gotop .hov,
+    #footerpage .gotop .nor {
+        width: 35px;
+        height: 35px
+    }
+
+    #footerpage .footerbox {
+        padding: 70px 0 30px
+    }
+
+    #footerpage .footerbox .footermenu .list {
+        display: table;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 30px auto
+    }
+
+    #footerpage .footerbox .footermenu .list .name {
+        padding: 0 5px 10px
+    }
+
+    #footerpage .footerbox .footermenu .list.active .line {
+        width: 70%
+    }
+
+    #footerpage .footerbox .footertext {
+        letter-spacing: 0
+    }
+
+    header.color .menu .box {
+        border: 1px solid #000
+    }
+
+    header.color .menu .box .menuicon {
+        color: #000
+    }
+
+    header.color .menu .downpic .ww {
+        opacity: 0
+    }
+
+    header.color .menu .downpic .bb {
+        opacity: 1
+    }
+
+    header.color .headlist {
+        background: rgba(0, 0, 0, .9)
+    }
+
+    header.color .headlist .list .name,
+    header.color .headlist .list .name a,
+    header.color .headlist .list .name a:hover {
+        color: #fff
+    }
+
+    header.color .headlist .list .name .line {
+        background: #fff
+    }
+
+    header.color .headlist .list .secbox .seclist .cc {
+        border: 1px solid #fff
+    }
+
+    header.color .headlist .list.active .secbox,
+    header.color .headlist .list:hover .secbox {
+        margin: 10px 0 0
+    }
+
+    header.color .headlist:hover {
+        background: rgba(0, 0, 0, .9)
+    }
+
+    header .celmenu {
+        display: block
+    }
+
+    header .logo {
+        left: 55px;
+        width: 50px;
+        height: 30px
+    }
+
+    header .logo.active {
+        display: none
+    }
+
+    header .menu {
+        top: 20px;
+        right: 20px
+    }
+
+    header .headlist {
+        height: calc(100vh - 90px);
+        overflow: auto;
+        top: 0;
+        right: 0;
+        padding: 70px 0 20px;
+        width: 100%;
+        background: rgba(0, 0, 0, .9);
+        transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        transition: all .5s .5s;
+        -moz-transition: all .5s .5s;
+        -webkit-transition: all .5s .5s;
+        -o-transition: all .5s .5s
+    }
+
+    header .headlist .list {
+        display: block;
+        max-width: 100%
+    }
+
+    header .headlist .list a,
+    header .headlist .list a:hover {
+        color: #fff
+    }
+
+    header .headlist .list .secbox {
+        height: 100%;
+        opacity: 1;
+        margin: 10px 0 0
+    }
+
+    header .headlist .list.active .secbox,
+    header .headlist .list:hover .secbox {
+        margin: 10px 0 0
+    }
+
+    header .headlist.active {
+        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+
+    header .openmenubox .menubg {
+        width: 35px;
+        height: 205px;
+        right: 20px;
+        display: none
+    }
+
+    header .openmenubox .close {
+        top: 20px;
+        right: 20px
+    }
+
+    header .openmenubox .leftbox {
+        width: 100px;
+        display: none
+    }
+
+    header .openmenubox .leftbox .btn,
+    header .openmenubox .leftbox .leftlogo {
+        display: none
+    }
+
+    header .openmenubox .rightbox {
+        width: 100%
+    }
+
+    header .openmenubox .rightbox .celbg {
+        display: block
+    }
+
+    header .openmenubox .rightbox .bg {
+        display: none
+    }
+
+    header .openmenubox .rightbox .contbox {
+        margin: 0;
+        width: 100%;
+        padding: 20px 0 0
+    }
+
+    header .openmenubox .rightbox .contbox .box {
+        padding: 0
+    }
+
+    header .openmenubox .rightbox .contbox .listbox {
+        min-height: calc(100vh - 310px)
+    }
+
+    header .openmenubox .rightbox .contbox .list {
+        font-size: 20px;
+        margin: 20px auto;
+        font-weight: 400;
+        font-size: 18px
+    }
+
+    header .openmenubox .rightbox .contbox .menubox {
+        padding: 0;
+        height: calc(100% - 20px);
+        margin: 0
+    }
+
+    header .openmenubox .rightbox .btnfoot {
+        display: block;
+        background: #fff;
+        width: 100%
+    }
+}

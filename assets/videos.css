@@ -1,0 +1,607 @@
+#videopage {
+    padding: 200px 0 0;
+    position: relative
+}
+
+#videopage .notebox {
+    background: #e9e9ec;
+    width: 100%;
+    padding: 50px 0 250px;
+    margin: 100px 0 -150px
+}
+
+#videopage .notebox .note {
+    font-size: 17px;
+    color: #5b6670;
+    padding: 10px 20px;
+    line-height: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: calc(100% - 400px);
+    text-align: justify
+}
+
+#videopage .leftline {
+    position: absolute;
+    top: 278px;
+    left: 0;
+    height: 11px;
+    width: 200px
+}
+
+#videopage .leftline .line,
+#videopage .leftline .sss {
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .leftline .line {
+    width: 20px;
+    height: 1px;
+    background: #000;
+    position: absolute
+}
+
+#videopage .leftline .sss {
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    left: 20px;
+    top: -5px
+}
+
+#videopage .leftline.active .line,
+#videopage .leftline:hover .line {
+    width: 175px
+}
+
+#videopage .leftline.active .sss,
+#videopage .leftline:hover .sss {
+    left: 170px
+}
+
+#videopage .changepage {
+    text-align: center;
+    margin: 60px auto 0
+}
+
+#videopage .changepage.notshow {
+    display: none
+}
+
+#videopage .changepage .all,
+#videopage .changepage .left,
+#videopage .changepage .line,
+#videopage .changepage .now,
+#videopage .changepage .page,
+#videopage .changepage .pic,
+#videopage .changepage .right {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#videopage .changepage .page {
+    margin: 0 20px
+}
+
+#videopage .changepage .left,
+#videopage .changepage .right {
+    width: 145px;
+    cursor: pointer
+}
+
+#videopage .changepage .left .pic,
+#videopage .changepage .right .pic {
+    position: relative
+}
+
+#videopage .changepage .left .pic .nor,
+#videopage .changepage .left .pic .nov,
+#videopage .changepage .right .pic .nor,
+#videopage .changepage .right .pic .nov {
+    position: absolute;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .changepage .left .pic .nor,
+#videopage .changepage .right .pic .nor {
+    opacity: 1
+}
+
+#videopage .changepage .left .pic .hov,
+#videopage .changepage .right .pic .hov {
+    opacity: 0
+}
+
+#videopage .changepage .left .line,
+#videopage .changepage .right .line {
+    width: 50px;
+    height: 1px;
+    background: #000;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .changepage .left .pic,
+#videopage .changepage .right .pic {
+    margin: 0 2px 1px
+}
+
+#videopage .changepage .left:hover .line,
+#videopage .changepage .right:hover .line {
+    width: 130px;
+    background: #a8ad00
+}
+
+#videopage .changepage .left:hover .pic .nor, 
+#videopage .changepage .right:hover .pic .nor {
+    opacity: 0
+}
+
+#videopage .changepage .left:hover .pic .hov,
+#videopage .changepage .right:hover .pic .hov {
+    opacity: 1
+}
+
+#videopage .changepage .left {
+    text-align: right
+}
+
+#videopage .changepage .right {
+    text-align: left
+}
+
+#videopage .box,
+#videopage .title {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: calc(100% - 400px)
+}
+
+#videopage .title .downinput,
+#videopage .title .tt {
+    display: inline-block;
+    vertical-align: top
+}
+
+#videopage .title .tt {
+    font-family: Avenir Next;
+    font-weight: 700;
+    font-size: 43px;
+    letter-spacing: 5px;
+    text-transform: uppercase
+}
+
+#videopage .title .tt .word {
+    height: 49px;
+    padding: 0 30px 0 0;
+    display: block;
+    font-family: Avenir Next;
+    font-weight: 700
+}
+
+#videopage .title .tt .word.notshow {
+    display: none
+}
+
+#videopage .title .tt .line {
+    background: url(/images/iot/titleline.svg) 100% 0 no-repeat;
+    height: 30px;
+    width: 100%;
+    position: relative
+}
+
+#videopage .title .tt .line .sss {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0;
+    bottom: -5px
+}
+
+#videopage .title .tt .line .ll {
+    width: calc(100% - 27px);
+    height: 30px;
+    border-bottom: 1px solid #000
+}
+
+#videopage .title .downinput {
+    width: 330px;
+    height: 50px;
+    margin: 0 0 0 -5px
+}
+
+#videopage .title .inputbox {
+    width: 305px;
+    height: 50px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 8px 0 0;
+    margin: 0 -5px 0 0
+}
+
+#videopage .title .inputbox .rbtn,
+#videopage .title .inputbox input {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#videopage .title .inputbox .rbtn {
+    width: 35px;
+    height: 30px;
+    cursor: pointer
+}
+
+#videopage .title .inputbox button {
+    width: 35px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none
+}
+
+#videopage .title .inputbox input {
+    width: 255px;
+    height: 30px;
+    background: none;
+    box-shadow: none;
+    border: none;
+    border-left: 1px solid #5b6670;
+    margin: 0 0 0 5px;
+    padding: 0 0 0 5px;
+    outline: none
+}
+
+#videopage .title .inputbox,
+#videopage .title .pic {
+    display: inline-block;
+    vertical-align: top
+}
+
+#videopage .title .pic {
+    width: 25px;
+    height: 50px
+}
+
+#videopage .box {
+    padding: 70px 0 0 0
+}
+
+#videopage .box .normalbox.notshow,
+#videopage .box .searchbox {
+    display: none
+}
+
+#videopage .box .searchbox.notshow {
+    display: block
+}
+
+#videopage .box .downlist {
+    margin: 0 0 30px;
+    position: relative;
+    opacity: 0;
+    top: 100px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .box .downlist a,
+#videopage .box .downlist a:hover {
+    text-decoration: none
+}
+
+#videopage .box .downlist .bg {
+    height: 100%;
+    width: calc(100% - 105px);
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    position: absolute
+}
+
+#videopage .box .downlist .bg .line {
+    position: absolute;
+    width: 145px;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background: #000;
+    z-index: 1
+}
+
+#videopage .box .downlist .bg .sss {
+    left: 140px;
+    top: -5px;
+    z-index: 2
+}
+
+#videopage .box .downlist .bg .bb {
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    background: #b1b7bb;
+    position: absolute
+}
+
+#videopage .box .downlist .date,
+#videopage .box .downlist .pdf,
+#videopage .box .downlist .title {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 14px 0;
+    position: relative;
+    font-size: 18px;
+    color: #3e3a39;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .box .downlist .sss {
+    position: absolute;
+    width: 11px;
+    height: 11px
+}
+
+#videopage .box .downlist .date {
+    width: 144px;
+    text-align: center
+}
+
+#videopage .box .downlist .title {
+    width: calc(100% - 270px);
+    padding: 14px 0 14px 20px;
+    margin: 0 20px 0 0
+}
+
+#videopage .box .downlist .title .sss {
+    right: -25px;
+    bottom: -5px
+}
+
+#videopage .box .downlist .pdf {
+    width: 85px;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -ms-center;
+    text-align: -o-center;
+    padding: 0
+}
+
+#videopage .box .downlist .pdf .downloadpic {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    left: 15px
+}
+
+#videopage .box .downlist .pdf .downloadpic img {
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    opacity: .5;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#videopage .box .downlist .pdf .downloadlinie {
+    width: 0;
+    height: 3px;
+    border-radius: 25px 25px 25px 25px;
+    background: #a8ad00;
+    position: relative;
+    left: 15px;
+    margin: 5px auto 0;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s
+}
+
+#videopage .box .downlist:hover .bg .bb {
+    width: 100%
+}
+
+#videopage .box .downlist:hover .date,
+#videopage .box .downlist:hover .title {
+    color: #fff
+}
+
+#videopage .box .downlist:hover .pdf .downloadpic img {
+    opacity: 1;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg)
+}
+
+#videopage .box .downlist:hover .pdf .downloadlinie {
+    width: 20px
+}
+
+#videopage .box .downlist.startopen {
+    opacity: 1;
+    top: 0
+}
+
+#videopage .box .downlist.downtt .date,
+#videopage .box .downlist.downtt .pdf {
+    background: #a8ad00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 0;
+    letter-spacing: 2px
+}
+
+#videopage .box .downlist.downtt .title {
+    background: #3e3a39;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 15px;
+    padding: 12px 0;
+    border: none;
+    letter-spacing: 2px
+}
+
+@media (max-width:1100px) {
+    #videopage .leftline {
+        display: none
+    }
+
+    #videopage .box,
+    #videopage .notebox .note,
+    #videopage .title {
+        width: calc(100% - 40px)
+    }
+}
+
+@media (max-width:768px) {
+
+    #videopage .changepage .left,
+    #videopage .changepage .right {
+        width: 100px
+    }
+
+    #videopage .changepage .left .line,
+    #videopage .changepage .right .line {
+        width: 40px
+    }
+
+    #videopage .changepage .left:hover .line,
+    #videopage .changepage .right:hover .line {
+        width: 80px
+    }
+
+    #videopage .title {
+        margin: 0 auto;
+        width: 95%
+    }
+
+    #videopage .title .downinput {
+        width: 95%;
+        max-width: 300px
+    }
+
+    #videopage .title .inputbox {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-radius: 5px;
+        padding: 0 0 0 5px;
+        width: calc(100% - 2px);
+        height: auto
+    }
+
+    #videopage .title .inputbox input {
+        width: calc(100% - 55px);
+        margin: 5px 0 5px 5px
+    }
+
+    #videopage .title .pic {
+        display: none
+    }
+
+    #videopage .title .downinput,
+    #videopage .title .tt {
+        display: block
+    }
+
+    #videopage .title .tt {
+        margin: 0 0 20px
+    }
+
+    #videopage .title .tt .line {
+        display: none
+    }
+}
+
+@media (max-width:550px) {
+    #videopage .title .downinput {
+        width: 180px
+    }
+
+    #videopage .title .tt {
+        font-size: 26px;
+        letter-spacing: 3px;
+        margin: 0 0 10px
+    }
+
+    #videopage .title .tt .word {
+        padding: 0;
+        height: 34px
+    }
+
+    #videopage .box {
+        width: calc(100% - 20px)
+    }
+
+    #videopage .box .downlist.downtt {
+        display: none
+    }
+
+    #videopage .box .downlist {
+        padding: 0 10px
+    }
+
+    #videopage .box .downlist .date,
+    #videopage .box .downlist .title {
+        width: calc(100% - 35px);
+        display: block;
+        margin: 0;
+        text-align: left;
+        font-size: 14px;
+        padding: 5px 45px 5px 0
+    }
+
+    #videopage .box .downlist .pdf {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0
+    }
+
+    #videopage .box .downlist .pdf .downloadpic {
+        width: 40px;
+        margin: 0 auto;
+        left: 0
+    }
+
+    #videopage .box .downlist .pdf .downloadlinie {
+        left: 0
+    }
+
+    #videopage .box .downlist .title .sss {
+        display: none
+    }
+
+    #videopage .box .downlist .bg {
+        width: 100%
+    }
+}

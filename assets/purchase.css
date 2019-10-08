@@ -1,0 +1,586 @@
+#purchasepage {
+    position: relative;
+    padding: 160px 0 50px
+}
+
+#purchasepage .changepage {
+    text-align: center;
+    margin: 60px auto
+}
+
+#purchasepage .changepage .all,
+#purchasepage .changepage .left,
+#purchasepage .changepage .line,
+#purchasepage .changepage .now,
+#purchasepage .changepage .page,
+#purchasepage .changepage .pic,
+#purchasepage .changepage .right {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#purchasepage .changepage .page {
+    margin: 0 20px
+}
+
+#purchasepage .changepage .left,
+#purchasepage .changepage .right {
+    width: 145px;
+    cursor: pointer
+}
+
+#purchasepage .changepage .left .pic,
+#purchasepage .changepage .right .pic {
+    position: relative
+}
+
+#purchasepage .changepage .left .pic .nor,
+#purchasepage .changepage .left .pic .nov,
+#purchasepage .changepage .right .pic .nor,
+#purchasepage .changepage .right .pic .nov {
+    position: absolute;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#purchasepage .changepage .left .pic .nor,
+#purchasepage .changepage .right .pic .nor {
+    opacity: 1
+}
+
+#purchasepage .changepage .left .pic .hov,
+#purchasepage .changepage .right .pic .hov {
+    opacity: 0
+}
+
+#purchasepage .changepage .left .line,
+#purchasepage .changepage .right .line {
+    width: 50px;
+    height: 1px;
+    background: #000;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#purchasepage .changepage .left .pic,
+#purchasepage .changepage .right .pic {
+    margin: 0 2px 1px
+}
+
+#purchasepage .changepage .left:hover .line,
+#purchasepage .changepage .right:hover .line {
+    width: 130px;
+    background: #a8ad00
+}
+
+#purchasepage .changepage .left:hover .pic .nor,
+#purchasepage .changepage .right:hover .pic .nor {
+    opacity: 0
+}
+
+#purchasepage .changepage .left:hover .pic .hov,
+#purchasepage .changepage .right:hover .pic .hov {
+    opacity: 1
+}
+
+#purchasepage .changepage .left {
+    text-align: right
+}
+
+#purchasepage .changepage .right {
+    text-align: left
+}
+
+#purchasepage .purchasebox {
+    margin: 90px auto 0;
+    max-width: 1220px
+}
+
+#purchasepage .purchasebox .list {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 265px;
+    height: 265px;
+    margin: 20px 17px
+}
+
+#purchasepage .purchasebox .list .bg,
+#purchasepage .purchasebox .list .name {
+    position: absolute;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+#purchasepage .purchasebox .list .name {
+    color: #fff;
+    height: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    font-size: 24px;
+    opacity: 0
+}
+
+#purchasepage .purchasebox .list .cover img {
+    transform: scale(.8);
+    -ms-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    -moz-transition: transform .5s;
+    -webkit-transition: transform .5s;
+    -o-transition: transform .5s
+}
+
+#purchasepage .purchasebox .list .bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(168, 173, 0, .5);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0
+}
+
+#purchasepage .purchasebox .list:hover .bg,
+#purchasepage .purchasebox .list:hover .name {
+    opacity: 1
+}
+
+#purchasepage .purchasebox .list:hover .cover img {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1)
+}
+
+#purchasepage .title {
+    padding: 0 0 0 260px
+}
+
+#purchasepage .title .tt {
+    width: 680px;
+    font-size: 53px;
+    font-weight: 700;
+    font-family: Avenir Next;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative
+}
+
+#purchasepage .title .btn,
+#purchasepage .title .tt {
+    display: inline-block;
+    vertical-align: top
+}
+
+#purchasepage .title .btn {
+    padding: 35px 0 0 50px;
+    cursor: pointer
+}
+
+#purchasepage .title .btn .pp,
+#purchasepage .title .btn .text {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#purchasepage .title .btn .pp {
+    width: 85px;
+    height: 65px
+}
+
+#purchasepage .title .btn .hov,
+#purchasepage .title .btn .nor {
+    position: absolute
+}
+
+#purchasepage .title .btn .hov img,
+#purchasepage .title .btn .nor img {
+    transform: scale(.6);
+    -ms-transform: scale(.6);
+    -moz-transform: scale(.6);
+    -webkit-transform: scale(.6);
+    -o-transform: scale(.6);
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#purchasepage .title .btn .nor {
+    opacity: 1
+}
+
+#purchasepage .title .btn .hov {
+    opacity: 0
+}
+
+#purchasepage .title .btn .text {
+    font-family: Avenir Next;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100px;
+    padding: 0 0 0 15px;
+    color: #949595;
+    letter-spacing: 2px
+}
+
+#purchasepage .title .btn:hover .nor {
+    opacity: 0
+}
+
+#purchasepage .title .btn:hover .hov {
+    opacity: 1
+}
+
+#purchasepage .title .btn:hover .text {
+    color: #a8ad00
+}
+
+#purchasepage .title .btn:hover .hov img,
+#purchasepage .title .btn:hover .nor img {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1)
+}
+
+#purchasepage .purchaseline {
+    position: absolute;
+    top: 180px
+}
+
+#purchasepage .purchaseline .sss {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 140px;
+    top: -5px;
+    z-index: 1
+}
+
+#purchasepage .purchaseline .ll {
+    position: absolute;
+    background: #000
+}
+
+#purchasepage .purchaseline .line1,
+#purchasepage .purchaseline .line3,
+#purchasepage .purchaseline .line5 {
+    height: 1px
+}
+
+#purchasepage .purchaseline .line1 {
+    width: 145px;
+    top: 0;
+    height: 1px
+}
+
+#purchasepage .purchaseline .line2 {
+    width: 1px;
+    height: 0;
+    top: 0;
+    left: 145px
+}
+
+#purchasepage .purchaseline .line3 {
+    width: 0;
+    top: 78px;
+    left: 145px
+}
+
+#purchasepage .purchaseline .line4 {
+    height: 0;
+    transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    left: 929px;
+    bottom: -78px;
+    width: 1px
+}
+
+#purchasepage .purchaseline .line5 {
+    left: 965px;
+    width: 0;
+    top: 0
+}
+
+#purchasepage .purchaseline.active .sss {
+    animation: wordmove 2s linear forwards;
+    -webkit-animation: wordmove 2s linear forwards
+}
+
+#purchasepage .purchaseline.active .line2 {
+    height: 78px;
+    transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+#purchasepage .purchaseline.active .line3 {
+    width: 785px;
+    transition: all 1.2s linear .2s;
+    -moz-transition: all 1.2s .2s slinear;
+    -webkit-transition: all 1.2s linear .2s;
+    -o-transition: all 1.2s .2s linear
+}
+
+#purchasepage .purchaseline.active .line4 {
+    height: 86px;
+    transition: all .2s linear 1.4s;
+    -moz-transition: all .2s 1.4s linear;
+    -webkit-transition: all .2s linear 1.4s;
+    -o-transition: all .2s 1.4s linear
+}
+
+#purchasepage .purchaseline.active .line5 {
+    width: 235px;
+    transition: all .4s linear 1.6s;
+    -moz-transition: all .4s 1.6s linear;
+    -webkit-transition: all .4s linear 1.6s;
+    -o-transition: all .4s 1.6s linear
+}
+
+@media (max-width:1250px) {
+    #purchasepage .purchaseline .line4 {
+        left: 692px
+    }
+
+    #purchasepage .purchaseline .line5 {
+        left: 728px
+    }
+
+    #purchasepage .purchasebox {
+        max-width: 915px
+    }
+
+    #purchasepage .title {
+        padding: 0 0 0 180px
+    }
+
+    #purchasepage .title .tt {
+        font-size: 40px;
+        width: 480px
+    }
+
+    #purchasepage .purchaseline.active .line3 {
+        width: 548px
+    }
+
+    #purchasepage .purchaseline.active .line5 {
+        width: 220px
+    }
+
+    #purchasepage .purchaseline.active .sss {
+        animation: wordmove1250 2s linear forwards;
+        -webkit-animation: wordmove1250 2s linear forwards
+    }
+}
+
+@media (max-width:992px) {
+    #purchasepage .purchaseline {
+        display: none
+    }
+
+    #purchasepage .title {
+        padding: 0 0 0 20px
+    }
+
+    #purchasepage .title .btn,
+    #purchasepage .title .tt {
+        display: block
+    }
+
+    #purchasepage .title .btn {
+        padding: 10px 0 0;
+        width: 200px
+    }
+
+    #purchasepage .purchasebox {
+        max-width: 610px
+    }
+}
+
+@media (max-width:768px) {
+    #purchasepage .title {
+        margin: 0 auto;
+        width: 90%;
+        padding: 0
+    }
+
+    #purchasepage .title .tt {
+        padding: 0
+    }
+
+    #purchasepage .changepage .left,
+    #purchasepage .changepage .right {
+        width: 100px
+    }
+
+    #purchasepage .changepage .left .line,
+    #purchasepage .changepage .right .line {
+        width: 40px
+    }
+
+    #purchasepage .changepage .left:hover .line,
+    #purchasepage .changepage .right:hover .line {
+        width: 80px
+    }
+}
+
+@media (max-width:550px) {
+    #purchasepage .title .tt {
+        font-size: 26px;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 2px
+    }
+
+    #purchasepage .title .btn {
+        margin: 0 auto
+    }
+
+    #purchasepage .title .btn .text {
+        padding: 0
+    }
+
+    #purchasepage .purchasebox {
+        max-width: 100%;
+        margin: 0 auto
+    }
+
+    #purchasepage .purchasebox .list {
+        display: block;
+        margin: 10px auto
+    }
+}
+
+@-webkit-keyframes wordmove {
+    0% {
+        top: -5px
+    }
+
+    10% {
+        top: 72px;
+        left: 140px
+    }
+
+    70% {
+        top: 72px;
+        left: 925px
+    }
+
+    80% {
+        top: -5px;
+        left: 960px
+    }
+
+    to {
+        left: 1195px;
+        top: -5px
+    }
+}
+
+@keyframes wordmove {
+    0% {
+        top: -5px
+    }
+
+    10% {
+        top: 72px;
+        left: 140px
+    }
+
+    70% {
+        top: 72px;
+        left: 925px
+    }
+
+    80% {
+        top: -5px;
+        left: 960px
+    }
+
+    to {
+        left: 1195px;
+        top: -5px
+    }
+}
+
+@-webkit-keyframes wordmove1250 {
+    0% {
+        top: -5px
+    }
+
+    10% {
+        top: 72px;
+        left: 140px
+    }
+
+    70% {
+        top: 72px;
+        left: 692px
+    }
+
+    80% {
+        top: -5px;
+        left: 728px
+    }
+
+    to {
+        left: 948px;
+        top: -5px
+    }
+}
+
+@keyframes wordmove1250 {
+    0% {
+        top: -5px
+    }
+
+    10% {
+        top: 72px;
+        left: 140px
+    }
+
+    70% {
+        top: 72px;
+        left: 692px
+    }
+
+    80% {
+        top: -5px;
+        left: 728px
+    }
+
+    to {
+        left: 948px;
+        top: -5px
+    }
+}
