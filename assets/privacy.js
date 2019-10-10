@@ -74,8 +74,7 @@
                                 e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active"),
                                 e > o - c ? $(".downline").addClass("active") : $(".downline").removeClass("active"),
                                 e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active"),
-                                e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active"),
-                                e > i - c ? $(".featurebox").addClass("active") : $(".featurebox").removeClass("active")
+                                e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active")
                             }
                         }
                     }), $("#crtlRowBtnFrame").on("click", ".touchBox", function () {
