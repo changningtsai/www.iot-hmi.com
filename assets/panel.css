@@ -1,3 +1,33 @@
+#panelpage .tablebox .title a {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#panelpage .tablebox .title a:hover {
+    color: #a8ad00;
+}
+@media (max-width:1100px) {
+    #panelpage .tablebox .title a {
+        font-weight: 700;
+        font-size: 20x;
+    }
+}
+
+@media (max-width:768px) {
+    #panelpage .tablebox .title a {
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:550px) {
+    #panelpage .tablebox .title a {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+
 #panelpage .box {
     width: calc(82% - 150px);
     margin: 0 0 0 15%;
@@ -5,10 +35,11 @@
 }
 
 #panelpage li::before {
-    content: "✓"; /* Insert content that looks like bullets */
+    content: "✓";
+    /* Insert content that looks like bullets */
     position: absolute;
-	left: 0;
-/*    color: blue; /* Or a color you prefer */
+    left: 0;
+    /*    color: blue; /* Or a color you prefer */
 }
 
 #panelpage .box .boxtitle {
