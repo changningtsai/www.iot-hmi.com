@@ -125,6 +125,17 @@
                                     var e = t.offsetTop;
                                     c > e - o ? t.classList.add("startopen") : t.classList.remove("startopen")
                                 })
+
+
+                                var t1 = window.innerHeight,
+                                    n1 = document.querySelector(".myissuebox").offsetTop,
+                                    r1 = .9 * window.pageYOffset;
+                                e(document.querySelectorAll(".inputlist"), function (n) {
+                                    var o = n.offsetTop + n1;
+                                    r1 > o - t1 ? n.classList.add("active") : n.classList.remove("active")
+                                })
+
+
                             }
                         }
                     })
