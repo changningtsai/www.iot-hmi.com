@@ -21,8 +21,6 @@ $(document).ready(function () {
     <iframe src="https://www.youtube-nocookie.com/embed/${sPageURL}/?autoplay=1&mute=1" frameborder="0" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 `
-
-
     $("#viewbox").html(videoHtml);
     document.getElementById('ivideo').scrollIntoView();
     

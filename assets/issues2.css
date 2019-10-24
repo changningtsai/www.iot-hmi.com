@@ -124,6 +124,7 @@ label.error {
     border: none;
     color: #414042;
     font-size: 20px;
+    margin-top: 10px;
     outline: none;
     padding: 20px;
     transition: all .5s;
