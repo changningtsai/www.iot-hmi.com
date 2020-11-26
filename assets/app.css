@@ -195,8 +195,8 @@ header .celmenu.color .nor.nocolor {
 
 header .logo {
     position: fixed;
-    width: 90px;
-    height: 54px;
+    width: 150px;
+    /*height: px;*/
     top: 45px;
     left: 60px
 }
@@ -808,14 +808,14 @@ footer.active {
 }
 
 #footerpage .footerbox {
-    background: #333;
+    background: #003B87;
     padding: 30px 0
 }
 
 #footerpage .footerbox .footerlogo {
     margin: 50px auto;
     width: 220px;
-    height: 50px
+    /*height: 50px*/
 }
 
 #footerpage .footerbox .footerlogo img {
@@ -831,7 +831,7 @@ footer.active {
 }
 
 #footerpage .footerbox .footermenu {
-    max-width: 1000px;
+    /*max-width: 1000px;*/
     margin: 0 auto;
     text-align: center
 }

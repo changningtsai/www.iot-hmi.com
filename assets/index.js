@@ -52,35 +52,19 @@
         n.r(t),
             function (e) {
                 n(277);
-                $(document).ready(function () {
-                    getnowplace("index"), new Vue({
-                        el: "#indexpage",
-                        mounted: function () {
-                            e.browser && (this.movetext(), window.addEventListener("scroll", this.movetext))
-                        },
-                        destroyed: function () {
-                            window.removeEventListener("scroll", this.movetext)
-                        },
-                        methods: {
-                            movetext: function () {
-                                var e = document.documentElement.scrollTop + document.body.scrollTop,
-                                    t = document.querySelector(".titletext").offsetTop,
-                                    n = document.querySelector(".title").offsetTop,
-                                    o = document.querySelector(".bottomline").offsetTop,
-                                    r = document.querySelector(".downbox").offsetTop,
-                                    i = document.querySelector(".pic1").offsetTop,
-                                    c = document.querySelector(".pic2").offsetTop,
-                                    a = document.querySelector(".pic3").offsetTop,
-                                    l = .8 * window.innerHeight;
-                                e > n - l ? $(".slidebox .title").addClass("active") : $(".slidebox .title").removeClass("active"), e > t - l ? $(".slidebox .titletext").addClass("active") : $(".slidebox .titletext").removeClass("active"), e > o - l ? $(".bottomline").addClass("active") : $(".bottomline").removeClass("active"), e > r - l ? $(".downbox").addClass("active") : $(".downbox").removeClass("active"), e > i - l ? $(".downbox .pic1").addClass("active") : $(".downbox .pic1").removeClass("active"), e > c - l ? $(".downbox .pic2").addClass("active") : $(".downbox .pic2").removeClass("active"), e > a - l ? $(".downbox .pic3").addClass("active") : $(".downbox .pic3").removeClass("active")
-                            }
-                        }
-                    }), $("#crtlRowBtnFrame").on("click", ".touchBox", function () {
-                        i($(this).index())
-                    }), setTimeout(function () {
-                        r()
-                    }, 5e3), $(".carousel .banner").eq($(".banner").length).addClass("nowleave"), $(".carousel .banner").eq(0).addClass("active"), $("#crtlRowBtnFrame .touchBox").eq(0).addClass("nowSliders")
-                });
+                $(document).ready(
+                    function () {
+                        getnowplace("index");
+                        $("#crtlRowBtnFrame").on("click", ".touchBox", function () {
+                            i($(this).index())
+                        });
+                        setTimeout(function () {
+                            r()
+                        }, 5e3);
+                        $(".carousel .banner").eq($(".banner").length).addClass("nowleave");
+                        $(".carousel .banner").eq(0).addClass("active");
+                        $("#crtlRowBtnFrame .touchBox").eq(0).addClass("nowSliders")
+                    });
                 var t = 0,
                     o = $(".banner").length,
                     r = function () {
