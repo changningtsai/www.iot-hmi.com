@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="/assets/app.css" />
   <script src="/assets/app.js"></script></head><body id="web"><header>
   <div class="logo">
-    <a href="/"><img class="img-responsive" src="/images/iot/logo-17.svg"/></a>
+    <a href="/"><img class="img-responsive" src="/images/iot/logo-18.svg"/></a>
   </div>
   <div class="celmenu">
     <div class="nor color">
@@ -46,6 +46,11 @@
             ><div class="cc"></div>
             <div class="name">Ubique Panel</div></a
           >
+        </div><div class="seclist">
+          <a href="/acorn_development_environment/"
+            ><div class="cc"></div>
+            <div class="name">Acron Development Environment</div></a
+          >
         </div>
       </div>
     </div><div class="list">
@@ -62,12 +67,15 @@
           ></div><div class="seclist"><a href="/issues/"
             ><div class="cc"></div>
             <div class="name">Issues</div></a
+          ></div><div class="seclist"><a href="/samples/"
+            ><div class="cc"></div>
+            <div class="name">Samples</div></a
           ></div>
       </div></div>
   </div>
 </header>
-<link rel="stylesheet" href="/assets/panel.css" />
-    <script src="/assets/panel.js"></script>
+<link rel="stylesheet" href="/assets/dark_panel.css" />
+    <script src="/assets/dark_panel.js"></script>
 
     <section id="page-container-layout">
         <div id="panelpage">
@@ -75,7 +83,7 @@
                 <div class="boxtitle">
                     <div class="tt">Ubique Panel</div>
                     <div class="line">
-                        <img class="img-responsive" src="/images/iot/prottline.svg" />
+                        <img class="img-responsive" src="/images/iot/dark_prottline.svg" />
                     </div>
                 </div>
                 <div class="leftbox">
@@ -101,7 +109,7 @@
                                     </div></div>
                                 </div>
                             <div class="pictitle">
-                                <img class="img-responsive" src="/images/iot/slidett.svg" />
+                                <img class="img-responsive" src="/images/iot/dark_slidett.svg" />
                             </div>
                             <div id="crtlRowBtnFrame">
                                 <div class="touchBox">
@@ -229,6 +237,16 @@
         >
           <a href="/join/">
             <div class="name">JOIN US</div>
+          </a>
+          <div class="line"></div>
+        </div>
+        
+        <div
+          class="list"
+          :class="{ 'active': foot.desc === $store.state.nowpagename }"
+        >
+          <a href="/warranty/">
+            <div class="name">PRODUCT WARRANTY</div>
           </a>
           <div class="line"></div>
         </div>

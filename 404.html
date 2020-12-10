@@ -46,6 +46,11 @@
             ><div class="cc"></div>
             <div class="name">Ubique Panel</div></a
           >
+        </div><div class="seclist">
+          <a href="/acorn_development_environment/"
+            ><div class="cc"></div>
+            <div class="name">Acron Development Environment</div></a
+          >
         </div>
       </div>
     </div><div class="list">
@@ -62,6 +67,9 @@
           ></div><div class="seclist"><a href="/issues/"
             ><div class="cc"></div>
             <div class="name">Issues</div></a
+          ></div><div class="seclist"><a href="/samples/"
+            ><div class="cc"></div>
+            <div class="name">Samples</div></a
           ></div>
       </div></div>
   </div>
@@ -156,6 +164,16 @@
         >
           <a href="/join/">
             <div class="name">JOIN US</div>
+          </a>
+          <div class="line"></div>
+        </div>
+        
+        <div
+          class="list"
+          :class="{ 'active': foot.desc === $store.state.nowpagename }"
+        >
+          <a href="/warranty/">
+            <div class="name">PRODUCT WARRANTY</div>
           </a>
           <div class="line"></div>
         </div>
