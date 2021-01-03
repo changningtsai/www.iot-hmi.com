@@ -1,5 +1,25 @@
+#indexpage {
+    font-size: 18px;
+}
+
+#indexpage .slogan span {
+    color: #666666;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3.5em;
+    font-family: 'IBM Plex Sans';
+    line-height: 1.8em;
+}
+
+#indexpage .slogan {
+    position: fixed;
+    left: 1.5vw;
+    bottom: 1.5vh;
+    z-index: 25;
+}
+
 #indexpage .downbox {
-    background:#fff;
+    background: #fff;
     transition: background 1s;
     -moz-transition: background 1s;
     -webkit-transition: background 1s;
@@ -41,7 +61,7 @@
 
 #indexpage .downbox .itemcontainer {
     margin-left: 10vw;
-    margin-top: 30vh;
+    margin-top: 25vh;
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
@@ -50,6 +70,7 @@
 
 #indexpage .downbox .itemcontainer .itemwrapper {
     width: 25vw;
+    height: 50vh;
     text-align: center;
 }
 
@@ -75,6 +96,31 @@
 
 #indexpage .downbox .itemcontainer .itemwrapper .item .photo-mobile {
     display: none
+}
+
+#indexpage .downbox .itemcontainer .itemwrapper .item .title {
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+#indexpage .downbox .itemcontainer .itemwrapper .item p {
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 0.5em;
+}
+
+#indexpage .downbox .itemcontainer .itemwrapper .item .button {
+    font-size: 0.8em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0.4em 1.5em;
+    border-radius: 1.2em;
+    text-decoration: none;
 }
 
 #indexpage .downbox .pic1,
