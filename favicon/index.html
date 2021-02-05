@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
-  <script src="/assets/app.js"></script></head><body id="web"><header>
+  <script src="/assets/app.js"></script><script src="/assets/img.js"></script>
+</head><body id="web"><header>
   <div class="logo">
     <a href="/"><img class="img-responsive" src="/images/iot/logo-17.svg"/></a>
   </div>
@@ -91,9 +92,11 @@ Each file inside this directory is mapped to <code class="language-plaintext hig
     </section><footer>
   <div id="footerpage">
     <div class="footertop">
+      <!--
       <div class="pic1">
         <img class="img-responsive" src="/images/iot/footertop.svg" />
       </div>
+      -->
       <div
         class="pic2"
         :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"

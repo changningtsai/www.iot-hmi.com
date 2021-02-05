@@ -77,20 +77,38 @@
                         },
                         methods: {
                             movetext: function () {
-                                var e = document.documentElement.scrollTop + document.body.scrollTop,
-                                    t = document.querySelector(".linebox").offsetTop,
-                                    n = document.querySelector(".upline").offsetTop,
-                                    o = document.querySelector(".downline").offsetTop,
-                                    r = document.querySelector(".descbox").offsetTop,
-                                    a = document.querySelector(".tablebox").offsetTop,
-                                    i = document.querySelector(".featurebox").offsetTop,
-                                    c = .8 * window.innerHeight;
-                                e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active"), 
-                                e > n - c ? $(".upline").addClass("active") : $(".upline").removeClass("active"), 
-                                e > o - c ? $(".downline").addClass("active") : $(".downline").removeClass("active"), 
-                                e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active"), 
-                                e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active"), 
-                                e > i - c ? $(".featurebox").addClass("active") : $(".featurebox").removeClass("active")
+                                var e = document.documentElement.scrollTop + document.body.scrollTop;
+                                var t = document.querySelector(".linebox").offsetTop;
+                                var n = document.querySelector(".upline").offsetTop;
+                                var o = document.querySelector(".downline").offsetTop;
+                                var r = document.querySelector(".descbox").offsetTop;
+                                var a = document.querySelector(".tablebox").offsetTop;
+                                var i = document.querySelector(".newline").offsetTop;
+                                var v1 = document.getElementById("v1");
+                                var v2 = document.getElementById("v2");
+                                var v3 = document.getElementById("v3");
+                                var c = .8 * window.innerHeight;
+                                e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active");
+                                e > n - c ? $(".upline").addClass("active") : $(".upline").removeClass("active");
+                                e > o - c ? $(".downline").addClass("active") : $(".downline").removeClass("active");
+                                e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active");
+                                e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
+                                e > i - c ? $(".newline").addClass("active") : $(".newline").removeClass("active");
+                                if ( e > v1.offsetTop - c ) {
+                                    v1.play();
+                                } else {
+                                    v1.pause();
+                                }
+                                if ( e > v2.offsetTop - c ) {
+                                    v2.play();
+                                } else {
+                                    v2.pause();
+                                }
+                                if ( e > v3.offsetTop - c ) {
+                                    v3.play();
+                                } else {
+                                    v3.pause();
+                                }
                             }
                         }
                     }), $("#crtlRowBtnFrame").on("click", ".touchBox", function () {

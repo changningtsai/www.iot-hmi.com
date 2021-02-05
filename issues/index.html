@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
-  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/issues.css" /><link rel="stylesheet" href=" /assets/issues2.css" /><script src="/assets/test/js/jquery.validate.js"></script><script src=" /assets/issues.js"></script><script src=" /assets/issues2.js"></script></head><body id="web"><header>
+  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/issues.css" /><link rel="stylesheet" href=" /assets/issues2.css" /><script src="/assets/test/js/jquery.validate.js"></script><script src=" /assets/issues.js"></script><script src=" /assets/issues2.js"></script><script src="/assets/img.js"></script>
+</head><body id="web"><header>
   <div class="logo">
     <a href="/"><img class="img-responsive" src="/images/iot/logo-17.svg"/></a>
   </div>
@@ -92,8 +93,8 @@
       <div class="ll"></div>
     </div>
   </div>
-  <div class="downinput">
-    <div class="inputbox">
+  <div class="decoration1">
+    <div class="decoration2">
     </div>
     <div class="pic">
       <img class="img-responsive" src="/images/iot/inputright.svg" />
@@ -160,9 +161,11 @@
     </section><footer>
   <div id="footerpage">
     <div class="footertop">
+      <!--
       <div class="pic1">
         <img class="img-responsive" src="/images/iot/footertop.svg" />
       </div>
+      -->
       <div
         class="pic2"
         :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"

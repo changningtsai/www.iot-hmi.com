@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
-  <script src="/assets/app.js"></script></head><body id="web"><header>
+  <script src="/assets/app.js"></script><script src="/assets/img.js"></script>
+</head><body id="web"><header>
   <div class="logo">
     <a href="/"><img class="img-responsive" src="/images/iot/logo-18.svg"/></a>
   </div>
@@ -85,25 +86,7 @@
                     <div class="line">
                         <img class="img-responsive" src="/images/iot/dark_prottline.svg" />
                     </div>
-                </div>
-                <div>
-                    <video width="100%" autoplay muted>
-                        <source src="/assets/videos/web-UP01.mp4" type="video/mp4">
-                        <source src="/assets/videos/web-UP01.ogg" type="video/ogg">
-                    </video>
-                </div>
-                <div>
-                    <video width="100%" autoplay muted>
-                        <source src="/assets/videos/web-UP02.mp4" type="video/mp4">
-                        <source src="/assets/videos/web-UP02.ogg" type="video/ogg">
-                    </video>
-                </div>
-                <div>
-                    <video width="100%" autoplay muted>
-                        <source src="/assets/videos/web-UP03.mp4" type="video/mp4">
-                        <source src="/assets/videos/web-UP03.ogg" type="video/ogg">
-                    </video>
-                </div>            
+                </div>      
                 <div class="leftbox">
                 </div>
                 <div class="rightbox">
@@ -112,45 +95,69 @@
                         <div class="leftline"></div>
                     </div>
                     <div class="tablebox">
-                        <div class="title">
-                        </div>
-                        <div class="cont">
-                        </div>
-                    </div>
-                    <div class="featurebox">
-                    </div>
-                    <div class="tablebox">
-                        <div class="title">
-                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="video1">
+                <video id='v1' width="100%" muted>
+                    <source src="/assets/videos/web-UP01.mp4" type="video/mp4">
+                    <source src="/assets/videos/web-UP01.ogg" type="video/ogg">
+                </video>
             </div>
             <div class="upline">
                 <div class="left"></div>
                 <div class="center"></div>
                 <div class="ball"></div>
             </div>
+            <div class="video1">
+                <div>
+                    <video id='v2' width="100%" muted>
+                        <source src="/assets/videos/web-UP02.mp4" type="video/mp4">
+                        <source src="/assets/videos/web-UP02.ogg" type="video/ogg">
+                    </video>
+                </div>
+            </div>
             <div class="downline">
                 <div class="right"></div>
                 <div class="center"></div>
                 <div class="ball"></div>
             </div>
+            <div class="video1">
+                <div>
+                    <video id='v3' width="100%" muted>
+                        <source src="/assets/videos/web-UP03.mp4" type="video/mp4">
+                        <source src="/assets/videos/web-UP03.ogg" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+            <div class="newline">
+                <div class="ball1"></div>
+                <div class="center"></div>
+                <div class="ball2"></div>
+            </div>
             <div class="descbox">
                 <div class="title">
-                    <img class="img-responsive" src="/images/iot/desctitle.svg" />
+                    <div class="tt">
+                      <div class="word">BRIEF DESCRIPTION</div>
+                    </div>
                 </div>
                 <div class="cont">
                     <p>Ubique Panel is a total solution for your HMI. It comes with the LCD Module (LCM) and our proprietary control board. Ubique Panel supports a product portfolio that comes with various LCM sizes and supports multiple resolutions. Ubique Panel includes an expansive set of control and communication interfaces that are versatile enough for our customers to build their system with ease. Ubique Panel works with our Acorn Development Environment (ADE) for bringing you the most illuminating HMI that not only elevates UX to an unmatched level but also enhance the overall quality of your products.</p>
 
+                    <div class="samplelink">
+                        <a href='/samples/ubique_panel/' class='button'>Samples</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section><footer>
   <div id="footerpage">
     <div class="footertop">
+      <!--
       <div class="pic1">
         <img class="img-responsive" src="/images/iot/footertop.svg" />
       </div>
+      -->
       <div
         class="pic2"
         :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"

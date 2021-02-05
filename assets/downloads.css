@@ -165,7 +165,7 @@
     width: calc(100% - 400px)
 }
 
-#downloadpage .title .downinput,
+#downloadpage .title .decoration1,
 #downloadpage .title .tt {
     display: inline-block;
     vertical-align: top
@@ -212,13 +212,13 @@
     border-bottom: 1px solid #000
 }
 
-#downloadpage .title .downinput {
+#downloadpage .title .decoration1 {
     width: 330px;
     height: 50px;
     margin: 0 0 0 -5px
 }
 
-#downloadpage .title .inputbox {
+#downloadpage .title .decoration2 {
     width: 305px;
     height: 50px;
     border-top: 1px solid #000;
@@ -227,19 +227,19 @@
     margin: 0 -5px 0 0
 }
 
-#downloadpage .title .inputbox .rbtn,
-#downloadpage .title .inputbox input {
+#downloadpage .title .decoration2 .rbtn,
+#downloadpage .title .decoration2 input {
     display: inline-block;
     vertical-align: middle
 }
 
-#downloadpage .title .inputbox .rbtn {
+#downloadpage .title .decoration2 .rbtn {
     width: 35px;
     height: 30px;
     cursor: pointer
 }
 
-#downloadpage .title .inputbox button {
+#downloadpage .title .decoration2 button {
     width: 35px;
     height: 30px;
     background: none;
@@ -247,7 +247,7 @@
     outline: none
 }
 
-#downloadpage .title .inputbox input {
+#downloadpage .title .decoration2 input {
     width: 255px;
     height: 30px;
     background: none;
@@ -259,7 +259,7 @@
     outline: none
 }
 
-#downloadpage .title .inputbox,
+#downloadpage .title .decoration2,
 #downloadpage .title .pic {
     display: inline-block;
     vertical-align: top
@@ -502,12 +502,12 @@
         width: 95%
     }
 
-    #downloadpage .title .downinput {
+    #downloadpage .title .decoration1 {
         width: 95%;
         max-width: 300px
     }
 
-    #downloadpage .title .inputbox {
+    #downloadpage .title .decoration2 {
         border-left: 1px solid #000;
         border-right: 1px solid #000;
         border-radius: 5px;
@@ -516,7 +516,7 @@
         height: auto
     }
 
-    #downloadpage .title .inputbox input {
+    #downloadpage .title .decoration2 input {
         width: calc(100% - 55px);
         margin: 5px 0 5px 5px
     }
@@ -525,7 +525,7 @@
         display: none
     }
 
-    #downloadpage .title .downinput,
+    #downloadpage .title .decoration1,
     #downloadpage .title .tt {
         display: block
     }
@@ -540,7 +540,7 @@
 }
 
 @media (max-width:550px) {
-    #downloadpage .title .downinput {
+    #downloadpage .title .decoration1 {
         width: 180px
     }
 

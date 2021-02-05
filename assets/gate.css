@@ -1,24 +1,6 @@
 #gatepage {
     padding: 200px 0 0;
-    position: relative
-}
-
-#gatepage .notebox {
-    background: #e9e9ec;
-    width: 100%;
-    padding: 50px 0 250px;
-    margin: 100px 0 -150px
-}
-
-#gatepage .notebox .note {
-    font-size: 17px;
-    color: #5b6670;
-    padding: 10px 20px;
-    line-height: 30px;
-    max-width: 1400px;
-    margin: 0 auto;
-    width: calc(100% - 400px);
-    text-align: justify
+    position: relative;
 }
 
 #gatepage .leftline {
@@ -62,117 +44,20 @@
     left: 170px
 }
 
-#gatepage .changepage {
-    text-align: center;
-    margin: 60px auto 0
-}
-
-#gatepage .changepage.notshow {
-    display: none
-}
-
-#gatepage .changepage .all,
-#gatepage .changepage .left,
-#gatepage .changepage .line,
-#gatepage .changepage .now,
-#gatepage .changepage .page,
-#gatepage .changepage .pic,
-#gatepage .changepage .right {
-    display: inline-block;
-    vertical-align: middle
-}
-
-#gatepage .changepage .page {
-    margin: 0 20px
-}
-
-#gatepage .changepage .left,
-#gatepage .changepage .right {
-    width: 145px;
-    cursor: pointer
-}
-
-#gatepage .changepage .left .pic,
-#gatepage .changepage .right .pic {
-    position: relative
-}
-
-#gatepage .changepage .left .pic .nor,
-#gatepage .changepage .left .pic .nov,
-#gatepage .changepage .right .pic .nor,
-#gatepage .changepage .right .pic .nov {
-    position: absolute;
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#gatepage .changepage .left .pic .nor,
-#gatepage .changepage .right .pic .nor {
-    opacity: 1
-}
-
-#gatepage .changepage .left .pic .hov,
-#gatepage .changepage .right .pic .hov {
-    opacity: 0
-}
-
-#gatepage .changepage .left .line,
-#gatepage .changepage .right .line {
-    width: 50px;
-    height: 1px;
-    background: #000;
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#gatepage .changepage .left .pic,
-#gatepage .changepage .right .pic {
-    margin: 0 2px 1px
-}
-
-#gatepage .changepage .left:hover .line,
-#gatepage .changepage .right:hover .line {
-    width: 130px;
-    background: #a8ad00
-}
-
-#gatepage .changepage .left:hover .pic .nor,
-#gatepage .changepage .right:hover .pic .nor {
-    opacity: 0
-}
-
-#gatepage .changepage .left:hover .pic .hov,
-#gatepage .changepage .right:hover .pic .hov {
-    opacity: 1
-}
-
-#gatepage .changepage .left {
-    text-align: right
-}
-
-#gatepage .changepage .right {
-    text-align: left
-}
-
 #gatepage .box,
 #gatepage .title {
-    margin: 0 auto;
-    max-width: 1400px;
-    width: calc(100% - 400px)
+    margin: 0 15vw 0 15vw;
+    width: 70vw;
 }
 
-#gatepage .title .downinput,
+#gatepage .title .decoration1,
 #gatepage .title .tt {
     display: inline-block;
     vertical-align: top
 }
 
 #gatepage .title .tt {
-    font-family: Avenir Next;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 43px;
     letter-spacing: 5px;
@@ -183,7 +68,7 @@
     height: 49px;
     padding: 0 30px 0 0;
     display: block;
-    font-family: Avenir Next;
+    font-family: 'Roboto';
     font-weight: 700
 }
 
@@ -212,13 +97,13 @@
     border-bottom: 1px solid #000
 }
 
-#gatepage .title .downinput {
+#gatepage .title .decoration1 {
     width: 330px;
     height: 50px;
     margin: 0 0 0 -5px
 }
 
-#gatepage .title .inputbox {
+#gatepage .title .decoration2 {
     width: 305px;
     height: 50px;
     border-top: 1px solid #000;
@@ -227,19 +112,19 @@
     margin: 0 -5px 0 0
 }
 
-#gatepage .title .inputbox .rbtn,
-#gatepage .title .inputbox input {
+#gatepage .title .decoration2 .rbtn,
+#gatepage .title .decoration2 input {
     display: inline-block;
     vertical-align: middle
 }
 
-#gatepage .title .inputbox .rbtn {
+#gatepage .title .decoration2 .rbtn {
     width: 35px;
     height: 30px;
     cursor: pointer
 }
 
-#gatepage .title .inputbox button {
+#gatepage .title .decoration2 button {
     width: 35px;
     height: 30px;
     background: none;
@@ -247,7 +132,7 @@
     outline: none
 }
 
-#gatepage .title .inputbox input {
+#gatepage .title .decoration2 input {
     width: 255px;
     height: 30px;
     background: none;
@@ -259,7 +144,7 @@
     outline: none
 }
 
-#gatepage .title .inputbox,
+#gatepage .title .decoration2,
 #gatepage .title .pic {
     display: inline-block;
     vertical-align: top
@@ -271,342 +156,13 @@
 }
 
 #gatepage .box {
-    padding: 70px 0 70px;
+    margin-top: calc(10rem / 3);
+    /*height: calc(115rem / 3);*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#gatepage .box .leftbluebox, .centerbluebox, .rightbluebox {
-    display: inline-block;
-    background-color: #003B87;
-    text-align: center;
-    height: 65vh;
-    width: 20vw;
-    border-top-right-radius: 5vw;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    -webkit-filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.5));
-    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.5))
-
-}
-
-#gatepage .box .leftbluebox {
-}
-
-#gatepage .box .leftbluebox .part1 {
-    margin-top: 6%;
-    margin-left: 10%;
-    height: 13%;
-    width: 80%;
-}
-
-#gatepage .box .leftbluebox .part2 {
-    margin-top: 6%;
-    margin-left: -25%;
-    height: 50%;
-    width: 137.5%;
-}
-
-#gatepage .box .leftbluebox .part3 {
-    margin-top: 2.5%;
-    margin-left: 10%;
-    height: 10%;
-    width: 80%;
-    text-align: left;
-}
-
-#gatepage .box .leftbluebox .part3 span {
-    font-family: 'Roboto';
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 0.5em;
-}
-
-#gatepage .box .leftbluebox .part4 {
-    margin-top: 2.5%;
-    margin-left: 60%;
-    height: 5%;
-    width: 30%;
-}
-
-#gatepage .box .leftbluebox .part4 .button {
-    color: #FFFFFF;
-    background-color: #003B87;    
-    font-family: 'Roboto';
-    font-size: 0.6em;
-    font-weight: 700;
-    line-height: 0.6em;
-    border: 1px solid;
-    border-radius: 5em;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-}
-
-#gatepage .box .centerbluebox {
-}
-
-#gatepage .box .centerbluebox .part1 {
-    margin-top: 6%;
-    margin-left: 10%;
-    height: 13.5%;
-    width: 80%;
-    text-align: left;
-}
-
-#gatepage .box .centerbluebox .part1 span {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1em;
-}
-
-#gatepage .box .centerbluebox .part2 {
-    margin-top: 5.5%;
-    margin-left: 10%;
-    height: 10%;
-    width: 80%;
-    text-align: left;    
-}
-
-#gatepage .box .centerbluebox .part2 span {
-    font-family: 'Roboto';
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 0.5em;
-}
-
-#gatepage .box .centerbluebox .part3 {
-    margin-top: 2.5%;
-    margin-left: 60%;
-    height: 5%;
-    width: 30%;
-}
-
-#gatepage .box .centerbluebox .part3 .button {
-    color: #FFFFFF;
-    background-color: #003B87;    
-    font-family: 'Roboto';
-    font-size: 0.6em;
-    font-weight: 700;
-    line-height: 0.6em;
-    border: 1px solid;
-    border-radius: 5em;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-}
-
-#gatepage .box .centerbluebox .part4 {
-    margin-top: 7.5%;
-    margin-left: -12.5%;
-    height: 50%;
-    width: 125%;
-}
-
-#gatepage .box .rightbluebox {
-}
-
-#gatepage .box .rightbluebox .part1 {
-    margin-top: 6%;
-    height: 50%;
-    width: 112.5%;
-}
-
-#gatepage .box .rightbluebox .part2 {
-    margin-top: 2.5%;
-    margin-left: 10%;
-    height: 13.5%;
-    width: 80%;    
-    text-align: left;
-}
-
-#gatepage .box .rightbluebox .part2 span {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1em;
-}
-
-#gatepage .box .rightbluebox .part3 {
-    margin-top: 5.5%;
-    margin-left: 10%;
-    height: 10%;
-    width: 80%;
-    text-align: left;
-}
-
-#gatepage .box .rightbluebox .part3 span {
-    font-family: 'Roboto';
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 0.5em;
-}
-
-#gatepage .box .rightbluebox .part4 {
-    margin-top: 2.5%;
-    margin-left: 60%;
-    height: 5%;
-    width: 30%;
-}
-
-#gatepage .box .rightbluebox .part4 .button {
-    color: #FFFFFF;
-    background-color: #003B87;    
-    font-family: 'Roboto';
-    font-size: 0.6em;
-    font-weight: 700;
-    line-height: 0.6em;
-    border: 1px solid;
-    border-radius: 5em;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-}
-
-@media (max-width:1100px) {
-    #gatepage .leftline {
-        display: none
-    }
-
-    #gatepage .box,
-    #gatepage .notebox .note,
-    #gatepage .title {
-        width: calc(100% - 40px)
-    }
-}
-
-@media (max-width:768px) {
-
-    #gatepage .changepage .left,
-    #gatepage .changepage .right {
-        width: 100px
-    }
-
-    #gatepage .changepage .left .line,
-    #gatepage .changepage .right .line {
-        width: 40px
-    }
-
-    #gatepage .changepage .left:hover .line,
-    #gatepage .changepage .right:hover .line {
-        width: 80px
-    }
-
-    #gatepage .title {
-        margin: 0 auto;
-        width: 95%
-    }
-
-    #gatepage .title .downinput {
-        width: 95%;
-        max-width: 300px
-    }
-
-    #gatepage .title .inputbox {
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-radius: 5px;
-        padding: 0 0 0 5px;
-        width: calc(100% - 2px);
-        height: auto
-    }
-
-    #gatepage .title .inputbox input {
-        width: calc(100% - 55px);
-        margin: 5px 0 5px 5px
-    }
-
-    #gatepage .title .pic {
-        display: none
-    }
-
-    #gatepage .title .downinput,
-    #gatepage .title .tt {
-        display: block
-    }
-
-    #gatepage .title .tt {
-        margin: 0 0 20px
-    }
-
-    #gatepage .title .tt .line {
-        display: none
-    }
-}
-
-@media (max-width:550px) {
-    #gatepage .title .downinput {
-        width: 180px
-    }
-
-    #gatepage .title .tt {
-        font-size: 26px;
-        letter-spacing: 3px;
-        margin: 0 0 10px
-    }
-
-    #gatepage .title .tt .word {
-        padding: 0;
-        height: 34px
-    }
-
-    #gatepage .box {
-        width: calc(100% - 20px)
-    }
-
-    #gatepage .box .downlist.downtt {
-        display: none
-    }
-
-    #gatepage .box .downlist {
-        padding: 0 10px
-    }
-
-    #gatepage .box .downlist .date,
-    #gatepage .box .downlist .title {
-        width: calc(100% - 35px);
-        display: block;
-        margin: 0;
-        text-align: left;
-        font-size: 14px;
-        padding: 5px 45px 5px 0
-    }
-
-    #gatepage .box .downlist .pdf {
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto 0
-    }
-
-    #gatepage .box .downlist .pdf .downloadpic {
-        width: 40px;
-        margin: 0 auto;
-        left: 0
-    }
-
-    #gatepage .box .downlist .pdf .downloadlinie {
-        left: 0
-    }
-
-    #gatepage .box .downlist .title .sss {
-        display: none
-    }
-
-    #gatepage .box .downlist .bg {
-        width: 100%
-    }
+#gatepage .leftline {
+    display: none
 }

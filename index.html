@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
-  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/index.css" /><script src="/assets/index.js"></script></head><body id="web"><header>
+  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/index.css" /><script src="/assets/index.js"></script><script src="/assets/img.js"></script>
+</head><body id="web"><header>
   <div class="logo">
     <a href="/"><img class="img-responsive" src="/images/iot/logo-17.svg"/></a>
   </div>
@@ -85,8 +86,8 @@
                     <div class="picBg photo-mobile" style="background-image: url(/images/iot/Home1.png)"></div>
                 </div>
                 <div class="banner">
-                    <div class="picBg photo-pc" style="background-image: url(/images/iot/Home1.png)"></div>
-                    <div class="picBg photo-mobile" style="background-image: url(/images/iot/Home1.png)"></div>
+                    <div class="picBg photo-pc" style="background-image: url(/images/iot/Home2.png)"></div>
+                    <div class="picBg photo-mobile" style="background-image: url(/images/iot/Home2.png)"></div>
                 </div>
             </div>
             <div id="crtlRowBtnFrame">
@@ -160,9 +161,11 @@ MACHINE</span>
     </section><footer>
   <div id="footerpage">
     <div class="footertop">
+      <!--
       <div class="pic1">
         <img class="img-responsive" src="/images/iot/footertop.svg" />
       </div>
+      -->
       <div
         class="pic2"
         :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"

@@ -1,3 +1,12 @@
+* {
+    font-size: 18px;
+}
+
+body#web {
+    margin: 0;
+    background-color: black;
+}
+
 #web { background: black;
     color: white;
 }
@@ -22,14 +31,10 @@
 }
 
 #panelpage .descbox .title {
-    width: 80%;
     margin: 0 0 30px
 }
 
 #panelpage .descbox .cont {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 2px;
     padding: 0 0 0 2px;
     top: 100px;
     opacity: 0;
@@ -40,35 +45,40 @@
     -o-transition: all 1s
 }
 
+#panelpage .descbox .cont p {
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+#panelpage .descbox .cont .samplelink {
+    margin: 30px;
+}
+
+#panelpage .descbox .cont .samplelink .button {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 2.7rem;
+    border: 1px solid;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 12.2rem;
+    align-items: center;
+    text-decoration: none;
+    margin-left: calc(50% - 6.1rem);
+}
+
 #panelpage .descbox.active .cont {
     opacity: 1;
     top: 0
 }
-
-
-/* ---------------- */
-
-@media (max-width:1100px) {
-    #panelpage .tablebox .title a {
-        font-weight: 700;
-        font-size: 20x;
-    }
-}
-
-@media (max-width:768px) {
-    #panelpage .tablebox .title a {
-        font-weight: 700;
-        font-size: 16px;
-    }
-}
-
-@media (max-width:550px) {
-    #panelpage .tablebox .title a {
-        font-weight: 700;
-        font-size: 14px;
-    }
-}
-
 
 #panelpage .box {
     width: calc(82% - 150px);
@@ -94,10 +104,11 @@
 
 #panelpage .box .boxtitle .tt {
     text-align: right;
-    font-family: Avenir Next;
+    font-family: 'Roboto';
     font-weight: 700;
     padding: 0 30% 50px 0;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: 65px; /* old settings */
 }
 
 #panelpage .box .boxtitle .line {
@@ -120,7 +131,6 @@
 
 #panelpage .box .leftbox {
     width: 650px;
-    height: 550px;
     position: relative;
     padding: 0 50px
 }
@@ -325,11 +335,14 @@
     width: 60%
 }
 
+#panelpage .video1 {
+    width: 99vw;
+}
+
 #panelpage .upline {
-    position: absolute;
     height: 60px;
-    width: 15%;
-    top: 800px
+    width: 15vw;
+    top: 800px;
 }
 
 #panelpage .upline .ball,
@@ -362,11 +375,73 @@
 }
 
 #panelpage .upline.active .ball {
-    left: 100%
+    left: 50%
 }
 
 #panelpage .upline.active .center {
-    width: calc(100% - 168px)
+    width: calc(50% - 168px)
+}
+
+
+
+#panelpage .newline {
+    position: relative;
+    height: 60px;
+    width: 99vw;
+    margin: 0 auto 0 auto;
+}
+
+#panelpage .newline .ball1,
+#panelpage .newline .center,
+#panelpage .newline .ball2 {
+    position: absolute;
+    height: 30px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+
+#panelpage .newline .center {
+    width: 20vw;
+    left: 40vw;
+    background: url(/images/iot/dark_downline.svg) 100% 100% repeat-x
+}
+
+#panelpage .newline .ball1 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    right: calc(40vw - 17px);
+}
+
+#panelpage .newline .ball2 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    left: calc(40vw - 17px);
+}
+
+
+#panelpage .newline.active .ball1 {
+    right: calc(30vw - 17px);
+}
+
+#panelpage .newline.active .ball2 {
+    left: calc(30vw - 17px);
+}
+
+#panelpage .newline.active .center {
+    width: calc(40vw - 17px);
+    left: 30vw;
+}
+
+#panelpage .descbox .title .tt .word {
+    font-size: 1.3rem;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    letter-spacing: 0.8em;
+    text-align: center;
+    color: #7CCAD1;
 }
 
 #sliderComponent {

@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
-  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/gate.css" /><link rel="stylesheet" href=" /assets/mytable.css" /><script src="/assets/gate.js"></script></head><body id="web"><header>
+  <script src="/assets/app.js"></script><link rel="stylesheet" href="/assets/gate_ade.css" /><link rel="stylesheet" href=" /assets/gate_signum.css" /><link rel="stylesheet" href=" /assets/gate_ubique.css" /><link rel="stylesheet" href="/assets/gate.css" /><script src="/assets/img.js"></script>
+</head><body id="web"><header>
   <div class="logo">
     <a href="/"><img class="img-responsive" src="/images/iot/logo-17.svg"/></a>
   </div>
@@ -84,7 +85,7 @@
       </div>
       <div class="title">
         <div class="tt">
-          <div class="tt">Samples</div>
+          <div class="word">Samples</div>
           <div class="line">
             <div class="sss">
               <img class="img-responsive" src="/images/iot/sss.svg" />
@@ -92,8 +93,8 @@
             <div class="ll"></div>
           </div>
         </div>
-        <div class="downinput">
-          <div class="inputbox">
+        <div class="decoration1">
+          <div class="decoration2">
             <!--
             <button class="rbtn">
               <img
@@ -113,8 +114,7 @@
           </div>
         </div>
       </div>
-      <div class="box">
-        <div class="leftbluebox">
+      <div class="box">        <div class="adebox">
           <div class="part1">
             <image clsss="img-responsive" src="/assets/images/ADE-logo-1210.svg" />
           </div>
@@ -124,160 +124,35 @@
           <div class="part3">
             <span>Your development tool to an illuminating HMI design</span>
           </div>
-          <div class="part4">
-            <a href='/samples/ade/' class='button'>More ></a>
-          </div>
-        </div>
-        <div class="centerbluebox">
+          <div class="part4"><a href='/samples/ade/' class='button'>More ></a></div>
+        </div>        <div class="signumbox">
           <div class="part1">
             <span>SIGNUM<br />PANEL</span>
           </div>
           <div class="part2">
             <span>An economic solution for directly replacing 240x64 and 240x128 TN</span>
           </div>
-          <div class="part3">
-            <a href='/samples/signum_panel/' class='button'>More ></a>
-          </div>
+          <div class="part3"><a href='/samples/signum_panel/' class='button'>More ></a></div>
           <div class="part4">
             <image cls="img-responsive" src="/assets/images/Resources-1223-25.png" />
           </div>
         </div>
-        <div class="rightbluebox">
+        <div class="ubiquebox">
           <div class="part1">
             <image cls="img-responsive" src="/assets/images/Resources-1223-24.png" />
           </div>
           <div class="part2">
-            <span>UBUQUE<br />PANEL</span>
+            <span>UBIQUE<br />PANEL</span>
           </div>
           <div class="part3">
             <span>The only solution you ever need for creating your HMI</span>
           </div>
-          <div class="part4">
-            <a href='/samples/ubique_panel/' class='button'>More ></a>
-          </div>
-        </div>
-      </div>
+          <div class="part4"><a href='/samples/ubique_panel/' class='button'>More ></a></div>
+        </div></div>
     </div>
-  </section><footer>
-  <div id="footerpage">
-    <div class="footertop">
-      <div class="pic1">
-        <img class="img-responsive" src="/images/iot/footertop.svg" />
-      </div>
-      <div
-        class="pic2"
-        :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"
-      >
-        <img class="img-responsive" src="/images/iot/footertop2.svg" />
-      </div>
-      <div class="pic3">
-        <img class="img-responsive" src="/images/iot/footcel.svg" />
-      </div>
-    </div>
-    <div
-      class="gotop"
-      :class="{ 'down': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"
-    >
-      <div class="hov">
-        <img class="img-responsive" src="/images/iot/topbtn1.svg" />
-      </div>
-      <div class="nor">
-        <img class="img-responsive" src="/images/iot/topbtn2.svg" />
-      </div>
-    </div>
-    <div class="footerbox">
-      <div class="footermenu">
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/about/">
-            <div class="name">ABOUT US</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/contact/">
-            <div class="name">CONTACT US</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/read/">
-            <div class="name">READ US</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/join/">
-            <div class="name">JOIN US</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/warranty/">
-            <div class="name">WARRANTY</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/terms/">
-            <div class="name">TERMS OF USE</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/privacy/">
-            <div class="name">PRIVACY POLICY</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
-          <a href="/trademarks/">
-            <div class="name">TRADEMARKS</div>
-          </a>
-          <div class="line"></div>
-        </div>
-        
-      </div>
-      <div class="footerlogo">
-        <a href="/">
-          <img class="img-responsive" src="/images/iot/logo-18.svg"/>
-        </a>
-      </div>
-      <div class="footertext">© IMMENSE OAK TECHNOLOGIES 2020</div>
-    </div>
-  </div>
-</footer><div id="outdated"></div>
+  </section>
+
+  <div id="outdated"></div>
 </body>
 
 </html>

@@ -2,6 +2,10 @@
     font-size: 18px;
 }
 
+#footerpage {
+    background-color: #FFFFFF;
+}
+
 #indexpage .slogan span {
     color: #666666;
     font-weight: 600;
