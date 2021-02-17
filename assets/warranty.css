@@ -1,0 +1,522 @@
+
+#warrantypage .box {
+    width: calc(82% - 150px);
+    margin: 0 0 0 15%;
+    padding: 200px 0 0
+}
+
+#warrantypage .box .boxtitle {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: Avenir Next;
+    letter-spacing: 5px;
+    position: relative
+}
+
+#warrantypage .box .boxtitle .tt {
+    text-align: right;
+    font-family: Avenir Next;
+    font-weight: 700;
+    padding: 0 30% 50px 0;
+    text-transform: uppercase
+}
+
+#warrantypage .box .boxtitle .line {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 330px;
+    width: 30%
+}
+
+#warrantypage .box .boxtitle .line img {
+    width: 100%
+}
+
+#warrantypage .box .leftbox,
+#warrantypage .box .rightbox {
+    display: inline-block;
+    vertical-align: top
+}
+
+#warrantypage .box .leftbox {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    padding: 0 50px
+}
+
+#warrantypage .box .rightbox {
+    width: 100%;
+}
+
+#warrantypage .box .rightbox .linebox {
+    width: 100%;
+    height: 60px;
+    position: relative
+}
+
+#warrantypage .box .rightbox .linebox .leftline,
+#warrantypage .box .rightbox .linebox .topline {
+    position: absolute
+}
+
+#warrantypage .box .rightbox .linebox .leftline {
+    top: 0;
+    height: 0;
+    width: 1px;
+    left: 0;
+    background: #000;
+    transition: height .3s .5s;
+    -moz-transition: height .3s .5s;
+    -webkit-transition: height .3s .5s;
+    -o-transition: height .3s .5s
+}
+
+#warrantypage .box .rightbox .linebox .topline {
+    top: 0;
+    right: 0;
+    background: #000;
+    width: 0;
+    height: 1px;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s
+}
+
+#warrantypage .box .rightbox .linebox.active .leftline {
+    height: 60px
+}
+
+#warrantypage .box .rightbox .linebox.active .topline {
+    width: 100%
+}
+
+#warrantypage .box .rightbox .tablebox {
+    margin: 60px auto 0
+}
+
+#warrantypage .box .rightbox .tablebox .title {
+    width: 80%;
+    margin: 0 0 30px
+}
+
+#warrantypage .box .rightbox .tablebox .title h2 {
+    color: #aaac24;
+}
+
+#warrantypage .box .rightbox .tablebox .wt {
+    font-weight: 700;
+}
+
+#warrantypage .box .rightbox .descbox .cont,
+#warrantypage .box .rightbox .tablebox .cont {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 0 0 0 2px;
+    margin: 0 20px;
+    top: 100px;
+    opacity: 0;
+    position: relative;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s
+}
+
+#warrantypage .box .rightbox .tablebox.active .cont {
+    opacity: 1;
+    top: 0
+}
+
+#warrantypage .box .rightbox .btn .cart,
+#warrantypage .box .rightbox .btn .text {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    transform: scale(.5);
+    -ms-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -o-transform: scale(.5);
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    -moz-transition: transform .5s;
+    -webkit-transition: transform .5s;
+    -o-transition: transform .5s
+}
+
+#warrantypage .box .rightbox .btn .cart .hov,
+#warrantypage .box .rightbox .btn .cart .nor,
+#warrantypage .box .rightbox .btn .text .hov,
+#warrantypage .box .rightbox .btn .text .nor {
+    position: absolute;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+#warrantypage .box .rightbox .btn .cart .hov,
+#warrantypage .box .rightbox .btn .text .hov {
+    opacity: 0
+}
+
+#warrantypage .box .rightbox .btn .cart .nor,
+#warrantypage .box .rightbox .btn .text .nor {
+    opacity: 1
+}
+
+#warrantypage .box .rightbox .btn .cart:hover,
+#warrantypage .box .rightbox .btn .text:hover {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1)
+}
+
+#warrantypage .box .rightbox .btn .cart:hover .hov,
+#warrantypage .box .rightbox .btn .text:hover .hov {
+    opacity: 1
+}
+
+#warrantypage .box .rightbox .btn .cart:hover .nor,
+#warrantypage .box .rightbox .btn .text:hover .nor {
+    opacity: 0
+}
+
+#warrantypage .box .rightbox .btn .text,
+#warrantypage .box .rightbox .btn .text .hov,
+#warrantypage .box .rightbox .btn .text .nor {
+    width: 111px;
+    height: 105px
+}
+
+#warrantypage .box .rightbox .btn .cart,
+#warrantypage .box .rightbox .btn .cart .hov,
+#warrantypage .box .rightbox .btn .cart .nor {
+    width: 140px;
+    height: 105px
+}
+
+#warrantypage .downline {
+    position: relative;
+    height: 60px;
+    width: 50%;
+    margin: 0 0 0 50%
+}
+
+#warrantypage .downline .ball,
+#warrantypage .downline .center,
+#warrantypage .downline .right {
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#warrantypage .downline .right {
+    width: 40%;
+    right: 0;
+    background: url(/images/iot/downright.svg) 0 100% no-repeat
+}
+
+#warrantypage .downline .center {
+    width: 10%;
+    right: 40%;
+    background: url(/images/iot/downline.svg) 100% 100% repeat-x
+}
+
+#warrantypage .downline .ball {
+    width: 17px;
+    background: url(/images/iot/downball.svg) bottom no-repeat;
+    right: 50%
+}
+
+#warrantypage .downline.active .ball {
+    right: 100%
+}
+
+#warrantypage .downline.active .center {
+    width: 60%
+}
+
+#warrantypage .upline {
+    position: absolute;
+    height: 60px;
+    width: 15%;
+    top: 800px
+}
+
+#warrantypage .upline .ball,
+#warrantypage .upline .center,
+#warrantypage .upline .left {
+    position: absolute;
+    height: 200px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#warrantypage .upline .left {
+    background: url(/images/iot/proleft1.svg) 0 100% no-repeat;
+    width: 168px;
+    left: 0
+}
+
+#warrantypage .upline .center {
+    background: url(/images/iot/proleft2.svg) 0 100% repeat-x;
+    left: 168px;
+    width: 10%
+}
+
+#warrantypage .upline .ball {
+    background: url(/images/iot/proleft3.svg) 0 100% no-repeat;
+    width: 17px;
+    left: calc(168px + 10%)
+}
+
+#warrantypage .upline.active .ball {
+    left: 100%
+}
+
+#warrantypage .upline.active .center {
+    width: calc(100% - 168px)
+}
+
+#sliderComponent {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 100px)
+}
+
+#crtlRowBtnFrame,
+.pictitle {
+    position: relative;
+    width: 50%;
+    margin: 50px -3px 0;
+    display: inline-block;
+    vertical-align: top
+}
+
+.pictitle {
+    padding: 5px 0 0
+}
+
+#crtlRowBtnFrame {
+    position: relative;
+    z-index: 10;
+    width: 50%;
+    text-align: right
+}
+
+#crtlRowBtnFrame .touchBox {
+    height: 10px;
+    width: 55px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #000
+}
+
+#crtlRowBtnFrame .bg {
+    width: 55px;
+    height: 10px;
+    background: none
+}
+
+#crtlRowBtnFrame .touchBox.nowSliders .bg {
+    background: #000
+}
+
+.carousel {
+    height: 100%;
+    position: relative
+}
+
+.carousel .banner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s
+}
+
+.carousel .banner .picBg {
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0
+}
+
+.carousel .banner .photo-pc {
+    display: block
+}
+
+.carousel .banner .photo-mobile {
+    display: none
+}
+
+.carousel .banner.nowleave {
+    z-index: 2;
+    opacity: 0
+}
+
+.carousel .banner.active {
+    opacity: 1;
+    z-index: 3
+}
+
+@media (max-width:1650px) {
+    #warrantypage .box .boxtitle {
+        font-size: 45px
+    }
+
+    #warrantypage .box .boxtitle .tt {
+        padding: 0 32% 50px 0
+    }
+}
+
+@media (max-width:1500px) {
+    #warrantypage .upline {
+        width: 35%
+    }
+
+    #warrantypage .box {
+        width: calc(90% - 100px);
+        margin: 0 auto
+    }
+
+    #warrantypage .box .rightbox {
+        width: 100%
+    }
+
+    #warrantypage .box .leftbox {
+        width: 450px;
+        height: 350px;
+        position: relative;
+        padding: 0 20px
+    }
+
+    #warrantypage .box .boxtitle {
+        font-size: 35px
+    }
+
+    #warrantypage .box .boxtitle .tt {
+        padding: 0 27% 30px 0
+    }
+
+    #warrantypage .box .boxtitle .line {
+        width: 25%
+    }
+}
+
+@media (max-width:1100px) {
+    #warrantypage .box {
+        width: calc(100% - 150px)
+    }
+}
+
+@media (max-width:992px) {
+    #sliderComponent {
+        width: 100%;
+        position: relative
+    }
+
+    #crtlRowBtnFrame,
+    .pictitle {
+        width: 100%;
+        margin: 10px 0
+    }
+
+    #crtlRowBtnFrame {
+        text-align: left
+    }
+
+    #crtlRowBtnFrame .touchBox {
+        width: 35px
+    }
+
+    .carousel {
+        height: 300px
+    }
+
+    #warrantypage .box .boxtitle {
+        font-size: 30px
+    }
+
+    #warrantypage .box .boxtitle .line {
+        display: none
+    }
+
+    #warrantypage .box .boxtitle .tt {
+        padding: 0 0 30px;
+        text-align: center
+    }
+
+    #warrantypage .box .leftbox {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 350px
+    }
+
+    #warrantypage .box .rightbox {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    #warrantypage .box .rightbox .linebox,
+    #warrantypage .upline {
+        display: none
+    }
+}
+
+@media (max-width:768px) {
+    #warrantypage .box {
+        width: 100%;
+        padding: 150px 0 0
+    }
+
+    #warrantypage .box .boxtitle {
+        letter-spacing: 2px;
+        font-size: 24px;
+        padding: 0 10px
+    }
+
+    #warrantypage .box .leftbox {
+        width: 300px;
+        padding: 0;
+        height: auto
+    }
+
+    #warrantypage .box .rightbox {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    #warrantypage .downline {
+        width: 70%;
+        margin: 0 0 50px 30%
+    }
+}
