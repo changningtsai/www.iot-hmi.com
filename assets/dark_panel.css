@@ -382,7 +382,56 @@ body#web {
     width: calc(50% - 168px)
 }
 
+#panelpage .newline {
+    position: relative;
+    height: 60px;
+    width: 99vw;
+    margin: 0 auto 0 auto;
+}
 
+#panelpage .newline .ball1,
+#panelpage .newline .center,
+#panelpage .newline .ball2 {
+    position: absolute;
+    height: 30px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+
+#panelpage .newline .center {
+    width: 20vw;
+    left: 40vw;
+    background: url(/images/iot/dark_downline.svg) 100% 100% repeat-x
+}
+
+#panelpage .newline .ball1 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    right: calc(40vw - 17px);
+}
+
+#panelpage .newline .ball2 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    left: calc(40vw - 17px);
+}
+
+
+#panelpage .newline.active .ball1 {
+    right: calc(30vw - 17px);
+}
+
+#panelpage .newline.active .ball2 {
+    left: calc(30vw - 17px);
+}
+
+#panelpage .newline.active .center {
+    width: calc(40vw - 17px);
+    left: 30vw;
+}
 
 #panelpage .newline {
     position: relative;
@@ -431,6 +480,57 @@ body#web {
 }
 
 #panelpage .newline.active .center {
+    width: calc(40vw - 17px);
+    left: 30vw;
+}
+
+#panelpage .newline2 {
+    position: relative;
+    height: 60px;
+    width: 99vw;
+    margin: 0 auto 0 auto;
+}
+
+#panelpage .newline2 .ball1,
+#panelpage .newline2 .center,
+#panelpage .newline2 .ball2 {
+    position: absolute;
+    height: 30px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+
+#panelpage .newline2 .center {
+    width: 20vw;
+    left: 40vw;
+    background: url(/images/iot/dark_downline.svg) 100% 100% repeat-x
+}
+
+#panelpage .newline2 .ball1 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    right: calc(40vw - 17px);
+}
+
+#panelpage .newline2 .ball2 {
+    width: 17px;
+    background: url(/images/iot/dark_downball.svg) bottom no-repeat;
+    left: calc(40vw - 17px);
+}
+
+
+#panelpage .newline2.active .ball1 {
+    right: calc(30vw - 17px);
+}
+
+#panelpage .newline2.active .ball2 {
+    left: calc(30vw - 17px);
+}
+
+#panelpage .newline2.active .center {
     width: calc(40vw - 17px);
     left: 30vw;
 }

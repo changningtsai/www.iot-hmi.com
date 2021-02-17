@@ -87,6 +87,7 @@
                                 var v1 = document.getElementById("v1");
                                 var v2 = document.getElementById("v2");
                                 var v3 = document.getElementById("v3");
+                                var v4 = document.getElementById("v4");
                                 var c = .8 * window.innerHeight;
                                 e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active");
                                 e > n - c ? $(".upline").addClass("active") : $(".upline").removeClass("active");
@@ -94,6 +95,15 @@
                                 e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active");
                                 e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
                                 e > i - c ? $(".newline").addClass("active") : $(".newline").removeClass("active");
+                                if ( v4 ) {
+                                    var j = document.querySelector(".newline2").offsetTop;
+                                    e > j - c ? $(".newline2").addClass("active") : $(".newline2").removeClass("active");
+                                    if ( e > v4.offsetTop - c ) {
+                                        v4.play();
+                                    } else {
+                                        v4.pause();
+                                    }
+                                }
                                 if ( e > v1.offsetTop - c ) {
                                     v1.play();
                                 } else {
