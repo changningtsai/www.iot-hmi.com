@@ -1532,7 +1532,7 @@ footer.active {
          url('/assets/fonts/roboto-v20-latin-900italic.svg#Roboto') format('svg'); /* Legacy iOS */
   }
   
-  .none-background {
+.none-background {
     width: 100vw !important;
     height: 100vh !important;
 }
@@ -1545,6 +1545,14 @@ footer.active {
     height: auto;
     -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.iotimg-background-noshadow {
+    background-color: #b3b3b3;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .scroll_horizontal {

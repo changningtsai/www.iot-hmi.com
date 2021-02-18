@@ -348,11 +348,52 @@
     width: 28.5%;
 }
 
-#samplepage .box .samplebox .others .upper .rest .quicklink {
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea {
     display: inline-block;
     height: calc(11.5rem / 3);
     width: 100%;
-    border: 1px solid #990099;
+    /*border: 1px solid #990099;*/
+    background-color: #F2F2F2;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea_expand {
+    height: calc(67rem / 3);
+    overflow-y: auto;
+    /*border: 1px solid #009900;*/
+    /*background-color: #F2F2F2;*/
+    z-index: 20;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul {
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_label {
+    font-size: 1.5rem;
+    color: #8B9296;
+    font-weight: 500;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_cat {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_item {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_item a {
+    text-decoration: none;
+    color: #8b9296;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_item a:hover {
+    text-decoration: none;
+    color: #7CCAD1;
 }
 
 #samplepage .box .samplebox .others .upper .rest .price {
@@ -405,20 +446,49 @@
 
 #samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 40%;
+    width: 45%;
     /*border: 1px solid #00AAAA;*/
     border-radius: calc(8rem / 6); 
     background-color: #FFFFFF;
-    -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox a,
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox a:hover {
+    text-decoration: none;
+    text-align: center;
 }
 
 #samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox .ebay_img_container {
     display: flex;
     justify-content: center;
     height: 85%;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox .ebay_img_container .ebay_e {
+    color: #FF0000;
+    margin: auto;
+}
+
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox .ebay_img_container .ebay_b {
+    color: #0000FF;
+    margin: auto;
+}
+
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox .ebay_img_container .ebay_a {
+    color: #FBB03B;
+    margin: auto;
+}
+
+#samplepage .box .samplebox .others .upper .rest .shopbox .ebaybox .ebay_img_container .ebay_y {
+    color: #8CC63F;
     margin: auto;
 }
 
@@ -436,18 +506,18 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 40%;
+    width: 45%;
     /*border: 1px solid #00AAAA;*/
     border-radius: calc(8rem / 6); 
     background-color: #FFFFFF;
-    -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5))
+    -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3))
 }
 
 #samplepage .box .samplebox .others .upper .rest .shopbox .amazonbox .amazon_img_container {
     display: flex;
     justify-content: center;
-    height: 85%;
+    height: 80%;
     margin: auto;
 }
 
@@ -460,7 +530,7 @@
 #samplepage .box .samplebox .others .lower {
     display: flex;
     flex-direction: row;
-    min-height: calc(27.5rem / 3 + 5px);
+    min-height: calc(27.5rem / 3 + 15px);
     width: 100%;
     /*border: 1px solid #007700;*/   
 }

@@ -160,7 +160,7 @@
     /*height: calc(115rem / 3);*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 #samplepage .box .listbox {
@@ -171,15 +171,17 @@
     /*border: 1px solid red;*/
     text-align: center;
     height: calc(115rem / 3);
-    width: calc(72vw - (100rem / 4.6875));
+    width: calc(65vw - (100rem / 4.6875));
     color: #FFFFFF;
     font-family: 'Roboto';
+    margin-left: calc(15rem / 3);
 }
 
 #samplepage .box .itembox {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+    margin-bottom: calc(5rem / 3);
     /*border: 1px solid blue;*/
 }
 
@@ -210,6 +212,7 @@
     font-family: 'Roboto';
     font-weight: 500;
     color: #C1272D;
+    margin-top: calc(1.2rem / 3);
     /*border: 1px solid red;*/
 }
 
