@@ -365,12 +365,28 @@
 }
 
 #samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul {
+    height: 100%;
 }
 
 #samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_label {
     font-size: 1.5rem;
     color: #8B9296;
     font-weight: 500;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    width: calc(100% - 2.2rem);
+    justify-content: space-between;
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_label .qlbl {
+}
+
+#samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_label .qarr {
+    font-weight: 900;
 }
 
 #samplepage .box .samplebox .others .upper .rest .quicklinkarea .qlink_ul .qlink_cat {
