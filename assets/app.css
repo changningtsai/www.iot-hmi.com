@@ -10,7 +10,7 @@
 }
 
 .mybox {
-    border: 1px solid #a8ad00;
+    border: 1px solid #003B87;
     border-radius: 3px;
     margin: 1%;
     padding: 1%;
@@ -368,20 +368,37 @@ header .headlist .list .secbox .seclist .name {
     letter-spacing: 1px
 }
 
+header.color .headlist .list .secbox .seclist.active .name,
+header.color .headlist .list .secbox .seclist:hover .name {
+    color: #003B87
+}
+
+header.color .headlist .list .secbox .seclist.active .cc,
+header.color .headlist .list .secbox .seclist:hover .cc {
+    background: #003B87;
+    border: 1px solid #003B87
+}
+
+header.color .headlist .list.active .tt,
+header.color .headlist .list:hover .tt {
+    color: #003B87
+}
+
+
 header .headlist .list .secbox .seclist.active .name,
 header .headlist .list .secbox .seclist:hover .name {
-    color: #a8ad00
+    color: #7CCAD1
 }
 
 header .headlist .list .secbox .seclist.active .cc,
 header .headlist .list .secbox .seclist:hover .cc {
-    background: #a8ad00;
-    border: 1px solid #a8ad00
+    background: #7CCAD1;
+    border: 1px solid #7CCAD1
 }
 
 header .headlist .list.active .tt,
 header .headlist .list:hover .tt {
-    color: #a8ad00
+    color: #7CCAD1
 }
 
 header .headlist .list:hover .secbox {
@@ -675,7 +692,7 @@ header .openmenubox .rightbox .contbox .list a:hover {
 }
 
 header .openmenubox .rightbox .contbox .list .name {
-    color: #a8ad00;
+    color: #003B87;
     transition: color .5s;
     -moz-transition: color .5s;
     -webkit-transition: color .5s;
@@ -873,7 +890,7 @@ footer.active {
 #footerpage .footerbox .footermenu .list.active .line,
 #footerpage .footerbox .footermenu .list:hover .line {
     width: 75%;
-    background: #ffbc00
+    background: #7CCAD1;
 }
 
 @media (max-width:1200px) {

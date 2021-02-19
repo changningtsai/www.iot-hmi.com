@@ -10,9 +10,9 @@
     color: #666666;
     font-weight: 600;
     font-style: italic;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-family: 'IBM Plex Sans';
-    line-height: 1.8em;
+    line-height: 6.3rem;
 }
 
 #indexpage .slogan {
@@ -104,27 +104,27 @@
 }
 
 #indexpage .downbox .itemcontainer .itemwrapper .item .title {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-family: 'Roboto';
     font-weight: 700;
 }
 
 #indexpage .downbox .itemcontainer .itemwrapper .item p {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: 'Roboto';
     font-weight: 400;
-    line-height: 0.5em;
+    line-height: 1.1rem;
 }
 
 #indexpage .downbox .itemcontainer .itemwrapper .item .button {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-family: 'Roboto';
     font-weight: 500;
     font-style: italic;
     color: #ffffff;
     background-color: #000000;
-    padding: 0.4em 1.5em;
-    border-radius: 1.2em;
+    padding: 0.4rem 1.5rem;
+    border-radius: 1.2rem;
     text-decoration: none;
 }
 
@@ -405,11 +405,11 @@
     cursor: pointer;
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid #a8ad00
+    border: 1px solid #003B87
 }
 
 #crtlRowBtnFrame .touchBox.nowSliders .bg {
-    background: #a8ad00
+    background: #003B87
 }
 
 #crtlRowBtnFrame .bg {
