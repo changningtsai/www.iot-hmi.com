@@ -76,7 +76,8 @@ label.error {
 }
 
 .formbox .sendBtn:hover .pic {
-    color: #e6e2b1
+    color: #7CCAD1;
+    opacity: .5;
 }
 
 .formbox .issuelist .inputlist {
