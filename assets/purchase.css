@@ -25,7 +25,7 @@
 
 #purchasepage .changepage .left,
 #purchasepage .changepage .right {
-    width: 145px;
+    width: 160px;
     cursor: pointer
 }
 
@@ -74,7 +74,7 @@
 #purchasepage .changepage .left:hover .line,
 #purchasepage .changepage .right:hover .line {
     width: 130px;
-    background: #a8ad00
+    background: #7CCAD1
 }
 
 #purchasepage .changepage .left:hover .pic .nor,
@@ -254,7 +254,7 @@
 }
 
 #purchasepage .title .btn:hover .text {
-    color: #a8ad00
+    color: #7CCAD1
 }
 
 #purchasepage .title .btn:hover .hov img,

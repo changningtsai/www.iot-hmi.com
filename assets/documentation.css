@@ -88,7 +88,7 @@
 
 #documentpage .changepage .left,
 #documentpage .changepage .right {
-    width: 145px;
+    width: 160px;
     cursor: pointer
 }
 
@@ -137,7 +137,7 @@
 #documentpage .changepage .left:hover .line,
 #documentpage .changepage .right:hover .line {
     width: 130px;
-    background: #a8ad00
+    background: #7CCAD1;
 }
 
 #documentpage .changepage .left:hover .pic .nor,
@@ -408,7 +408,7 @@
     width: 0;
     height: 3px;
     border-radius: 25px 25px 25px 25px;
-    background: #a8ad00;
+    background: #7CCAD1;
     position: relative;
     left: 15px;
     margin: 5px auto 0;
@@ -447,7 +447,7 @@
 
 #documentpage .box .downlist.downtt .date,
 #documentpage .box .downlist.downtt .pdf {
-    background: #7CCAD1;
+    background: #003B87;
     color: #fff;
     font-size: 20px;
     font-weight: 600;

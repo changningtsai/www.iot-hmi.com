@@ -88,7 +88,7 @@
 
 #downloadpage .changepage .left,
 #downloadpage .changepage .right {
-    width: 145px;
+    width: 160px;
     cursor: pointer
 }
 
@@ -137,7 +137,7 @@
 #downloadpage .changepage .left:hover .line,
 #downloadpage .changepage .right:hover .line {
     width: 130px;
-    background: #a8ad00
+    background: #7CCAD1
 }
 
 #downloadpage .changepage .left:hover .pic .nor,
@@ -408,7 +408,7 @@
     width: 0;
     height: 3px;
     border-radius: 25px 25px 25px 25px;
-    background: #a8ad00;
+    background: #7CCAD1;
     position: relative;
     left: 15px;
     margin: 5px auto 0;
@@ -447,7 +447,7 @@
 
 #downloadpage .box .downlist.downtt .date,
 #downloadpage .box .downlist.downtt .pdf {
-    background: #a8ad00;
+    background: #7CCAD1;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
