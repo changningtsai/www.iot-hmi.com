@@ -219,6 +219,102 @@
     text-align: left;
 }
 
+#samplepage .box .featurebox {
+    margin-left: 0;
+    margin-bottom: 4rem;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    font-family: 'Roboto';
+    text-align: left;
+}
+
+#samplepage .box .featurebox .featuretitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#samplepage .box .featurebox .featurelistbox {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#samplepage .box .featurebox .featurelistbox ul {
+    /*padding-left: 0;*/
+}
+
+#samplepage .box .featurebox .featurelistbox ul li::before {
+    content: "♦";
+    /* Insert content that looks like bullets */
+    position: absolute;
+    left: 0;
+    /*    color: blue; /* Or a color you prefer */
+}
+
+
+#samplepage .box .downloadbox {
+    margin-left: 0;
+    margin-bottom: calc(23rem / 3);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    font-family: 'Roboto';
+    text-align: left;
+}
+
+#samplepage .box .downloadbox .downloadtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#samplepage .box .downloadbox .downloadlistbox {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #C1272D;
+    display: flex;
+    flex-direction: column;
+}
+
+#samplepage .box .downloadbox .downloadlistbox .downloadfile {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    /*border: solid 1px green;*/
+}
+
+#samplepage .box .downloadbox .downloadlistbox .downloadfile .di {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    display: inline-block;
+    /*border: solid 1px blue;*/
+}
+
+#samplepage .box .downloadbox .downloadlistbox .downloadfile .dt {
+    height: 3rem;
+    /*border: solid 1px red;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#samplepage .box .downloadbox .downloadlistbox .downloadfile .dt span {
+    display: inline-block;
+    /*border: solid 1px purple;*/
+}
+
+#samplepage .box .downloadbox .downloadlistbox .downloadfile a,
+#samplepage .box .downloadbox .downloadlistbox .downloadfile a:hover {
+    text-decoration: none;
+    color: #003B87;
+}
+
 #samplepage .relatebox {
     margin-left: 0;
     margin-bottom: calc(16.5rem / 3);
@@ -543,11 +639,18 @@
     width: auto;
 }
 
+#samplepage .box .samplebox .others .lower_container {
+    width: calc(100% + 4rem);
+    left: -2rem;
+    padding-left: 2rem;
+    /*border: 1px solid #007700;*/   
+}
+
 #samplepage .box .samplebox .others .lower {
     display: flex;
     flex-direction: row;
     min-height: calc(27.5rem / 3 + 15px);
-    width: 100%;
+    width: calc(100% - 2rem);
     /*border: 1px solid #007700;*/   
 }
 

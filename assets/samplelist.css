@@ -163,6 +163,12 @@
     /*justify-content: space-between;*/
 }
 
+#samplepage .box .listbox_container {
+    margin-left: calc(15rem / 3 - 2rem);
+    width: calc(65vw - (100rem / 4.6875) + 4rem);
+    padding-left: 2rem;
+}
+
 #samplepage .box .listbox {
     display: flex;
     justify-content: space-between;;
@@ -174,7 +180,6 @@
     width: calc(65vw - (100rem / 4.6875));
     color: #FFFFFF;
     font-family: 'Roboto';
-    margin-left: calc(15rem / 3);
 }
 
 #samplepage .box .itembox {
