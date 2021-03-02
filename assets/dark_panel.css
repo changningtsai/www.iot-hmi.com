@@ -51,6 +51,16 @@ body#web {
     font-family: 'Roboto';
     font-weight: 300;
     color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#panelpage .descbox .cont ul, 
+#panelpage .descbox .cont ul li {
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #FFFFFF;
 }
 
 #panelpage .descbox .cont .samplelink {
