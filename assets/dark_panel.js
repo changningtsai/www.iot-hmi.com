@@ -88,6 +88,7 @@
                                 var v2 = document.getElementById("v2");
                                 var v3 = document.getElementById("v3");
                                 var v4 = document.getElementById("v4");
+                                var v5 = document.getElementById("v5");
                                 var c = .8 * window.innerHeight;
                                 e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active");
                                 e > n - c ? $(".upline").addClass("active") : $(".upline").removeClass("active");
@@ -95,9 +96,18 @@
                                 e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active");
                                 e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
                                 e > i - c ? $(".newline").addClass("active") : $(".newline").removeClass("active");
+                                if ( v5 ) {
+                                    var j = document.querySelector(".vn5").offsetTop;
+                                    e > j - c ? $(".vn5").addClass("active") : $(".vn5").removeClass("active");
+                                    if ( e > v5.offsetTop - c ) {
+                                        v5.play();
+                                    } else {
+                                        v5.pause();
+                                    }
+                                }
                                 if ( v4 ) {
-                                    var j = document.querySelector(".newline2").offsetTop;
-                                    e > j - c ? $(".newline2").addClass("active") : $(".newline2").removeClass("active");
+                                    var j = document.querySelector(".vn4").offsetTop;
+                                    e > j - c ? $(".vn4").addClass("active") : $(".vn4").removeClass("active");
                                     if ( e > v4.offsetTop - c ) {
                                         v4.play();
                                     } else {
