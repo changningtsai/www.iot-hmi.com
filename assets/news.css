@@ -124,6 +124,18 @@
     letter-spacing: 2px;
 }
 
+#newspage ul {
+    padding-left: 2.2rem;
+}
+
+#newspage li::before {
+    content: "✓";
+    /* Insert content that looks like bullets */
+    position: absolute;
+    left: 1rem;
+    /*    color: blue; /* Or a color you prefer */
+}
+
 #newspage .box .rightbox .descbox .cont,
 #newspage .box .rightbox .tablebox .cont {
     font-size: 16px;
