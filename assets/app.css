@@ -120,23 +120,6 @@ header.active {
     overflow: scroll;
 }
 
-div.myautoscroll {
-    overflow: hidden;
-}
-
-div.myautoscroll:hover {
-    overflow: auto;
-    background-color: red;
-}
-
-div.myautoscroll p {
-    padding-left: 16px;
-}
-
-div.myautoscroll:hover p {
-    padding-left: 0px;
-}
-
 header {
     position: fixed;
     transition: z-index .5s;
@@ -973,6 +956,10 @@ footer.active {
 @media (max-width:768px) {
     .tt2 {
         color: #ffffff;
+    }
+
+    #footerpage {
+        margin-top: 3rem;
     }
 
     #footerpage .footertop {
