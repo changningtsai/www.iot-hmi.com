@@ -1069,8 +1069,9 @@ footer.active {
 
     header .logo {
         left: 55px;
-        width: 50px;
-        height: 30px
+        width: 75px;
+        /*height: 30px*/
+        transform: translateY(-5px);
     }
 
     header .logo.active {

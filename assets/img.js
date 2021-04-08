@@ -1,10 +1,18 @@
 $(document).ready(function () {
     $(".scroll_horizontal").on("wheel", function (e) {
-        if (e.currentTarget.scrollWidth > e.currentTarget.clientWidth) {
+        var maxScrollLeft = e.currentTarget.scrollWidth - e.currentTarget.clientWidth;
+        var step = 50;
+        if (maxScrollLeft > 0) {
             if (e.originalEvent.deltaY > 0) {
-                e.currentTarget.scrollLeft += 100;
-            } else {
-                e.currentTarget.scrollLeft -= 100;
+                if (step > maxScrollLeft) {
+                    step = maxScrollLeft;
+                }
+                e.currentTarget.scrollLeft += step;
+            } else if ( e.currentTarget.scrollLeft > 0 ) {
+                if( step > e.currentTarget.scrollLeft ) {
+                    step = e.currentTarget.scrollLeft;
+                }                
+                e.currentTarget.scrollLeft -= step;
             }
             e.preventDefault();
         }

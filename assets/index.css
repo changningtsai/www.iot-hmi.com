@@ -334,6 +334,8 @@
     
     #indexpage .downbox .itemcontainer .itemwrapper {
         width: 100%;
+        min-height: 50vh;
+        margin-top: 3rem;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item {
@@ -356,7 +358,7 @@
     
     #indexpage .downbox .itemcontainer .itemwrapper .item p {
         font-size: 0.8rem;
-        line-height: 1rem;
+        line-height: 0.4rem;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .button {
