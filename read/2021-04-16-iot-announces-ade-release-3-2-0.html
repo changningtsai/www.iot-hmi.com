@@ -96,6 +96,8 @@ The detail of this release is described below:</p>
 <h1 id="whats-new">What’s new</h1>
 <ul>
   <li>Audio widget for loading and playing audio files under .wav format</li>
+  <li>Visibility control for the multi-layered images</li>
+  <li>Location and parameter/attribute lock for widgets</li>
 </ul>
 
 <h1 id="bug-fixes">Bug Fixes</h1>
@@ -105,9 +107,9 @@ The detail of this release is described below:</p>
   <li>Adding positive sign in Digits Widget</li>
   <li>Adding default file path for downloading firmware and loader</li>
   <li>Making Image handler easier to use for position settings</li>
-  <li>Ctrl+F5 hot key for page refreshing with refreshing time setting</li>
+  <li>Ctrl+F5 for refreshing document templates and recent designs</li>
   <li>Pining and deleting recent designs</li>
-  <li>Button widgets’ body displayed correctly with body radius settings</li>
+  <li>Button widgets’ body displayed correctly according to the body radius setting</li>
   <li>Progress bar data value setting for all segments</li>
   <li>Adhering to the aspect ratio for the images loaded from the Clipboard with the lock size attribute turned on</li>
   <li>Enabling undo and redo for ALIGNMENT and SAME SIZE &amp; SPACE control buttons</li>
@@ -139,20 +141,14 @@ The detail of this release is described below:</p>
         <img class="img-responsive" src="/images/iot/footertop.svg" />
       </div>
       -->
-      <div
-        class="pic2"
-        :class="{ 'hide': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"
-      >
+      <div class="pic2">
         <img class="img-responsive" src="/images/iot/footertop2.svg" />
       </div>
       <div class="pic3">
         <img class="img-responsive" src="/images/iot/footcel.svg" />
       </div>
     </div>
-    <div
-      class="gotop"
-      :class="{ 'down': $store.state.nowpagename === 'solution' || $store.state.nowpagename === 'resources'}"
-    >
+    <div class="gotop">
       <div class="hov">
         <img class="img-responsive" src="/images/iot/topbtn1.svg" />
       </div>
@@ -163,80 +159,56 @@ The detail of this release is described below:</p>
     <div class="footerbox">
       <div class="footermenu">
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/about/">
             <div class="name">ABOUT US</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/contact/">
             <div class="name">CONTACT US</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/read/">
             <div class="name">READ US</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/join/">
             <div class="name">JOIN US</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/warranty/">
             <div class="name">WARRANTY</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/terms/">
             <div class="name">TERMS OF USE</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/privacy/">
             <div class="name">PRIVACY POLICY</div>
           </a>
           <div class="line"></div>
         </div>
         
-        <div
-          class="list"
-          :class="{ 'active': foot.desc === $store.state.nowpagename }"
-        >
+        <div class="list">
           <a href="/trademarks/">
             <div class="name">TRADEMARKS</div>
           </a>
