@@ -131,7 +131,6 @@
     top: 0
 }
 
-#warrantypage .box .rightbox .btn .cart,
 #warrantypage .box .rightbox .btn .text {
     position: relative;
     display: inline-block;
@@ -149,8 +148,6 @@
     -o-transition: transform .5s
 }
 
-#warrantypage .box .rightbox .btn .cart .hov,
-#warrantypage .box .rightbox .btn .cart .nor,
 #warrantypage .box .rightbox .btn .text .hov,
 #warrantypage .box .rightbox .btn .text .nor {
     position: absolute;
@@ -160,17 +157,14 @@
     -o-transition: opacity .5s
 }
 
-#warrantypage .box .rightbox .btn .cart .hov,
 #warrantypage .box .rightbox .btn .text .hov {
     opacity: 0
 }
 
-#warrantypage .box .rightbox .btn .cart .nor,
 #warrantypage .box .rightbox .btn .text .nor {
     opacity: 1
 }
 
-#warrantypage .box .rightbox .btn .cart:hover,
 #warrantypage .box .rightbox .btn .text:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -179,12 +173,10 @@
     -o-transform: scale(1)
 }
 
-#warrantypage .box .rightbox .btn .cart:hover .hov,
 #warrantypage .box .rightbox .btn .text:hover .hov {
     opacity: 1
 }
 
-#warrantypage .box .rightbox .btn .cart:hover .nor,
 #warrantypage .box .rightbox .btn .text:hover .nor {
     opacity: 0
 }
@@ -193,13 +185,6 @@
 #warrantypage .box .rightbox .btn .text .hov,
 #warrantypage .box .rightbox .btn .text .nor {
     width: 111px;
-    height: 105px
-}
-
-#warrantypage .box .rightbox .btn .cart,
-#warrantypage .box .rightbox .btn .cart .hov,
-#warrantypage .box .rightbox .btn .cart .nor {
-    width: 140px;
     height: 105px
 }
 

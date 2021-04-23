@@ -131,7 +131,6 @@
     top: 0
 }
 
-#joinpage .box .rightbox .btn .cart,
 #joinpage .box .rightbox .btn .text {
     position: relative;
     display: inline-block;
@@ -149,8 +148,6 @@
     -o-transition: transform .5s
 }
 
-#joinpage .box .rightbox .btn .cart .hov,
-#joinpage .box .rightbox .btn .cart .nor,
 #joinpage .box .rightbox .btn .text .hov,
 #joinpage .box .rightbox .btn .text .nor {
     position: absolute;
@@ -160,17 +157,14 @@
     -o-transition: opacity .5s
 }
 
-#joinpage .box .rightbox .btn .cart .hov,
 #joinpage .box .rightbox .btn .text .hov {
     opacity: 0
 }
 
-#joinpage .box .rightbox .btn .cart .nor,
 #joinpage .box .rightbox .btn .text .nor {
     opacity: 1
 }
 
-#joinpage .box .rightbox .btn .cart:hover,
 #joinpage .box .rightbox .btn .text:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -179,12 +173,10 @@
     -o-transform: scale(1)
 }
 
-#joinpage .box .rightbox .btn .cart:hover .hov,
 #joinpage .box .rightbox .btn .text:hover .hov {
     opacity: 1
 }
 
-#joinpage .box .rightbox .btn .cart:hover .nor,
 #joinpage .box .rightbox .btn .text:hover .nor {
     opacity: 0
 }
@@ -193,13 +185,6 @@
 #joinpage .box .rightbox .btn .text .hov,
 #joinpage .box .rightbox .btn .text .nor {
     width: 111px;
-    height: 105px
-}
-
-#joinpage .box .rightbox .btn .cart,
-#joinpage .box .rightbox .btn .cart .hov,
-#joinpage .box .rightbox .btn .cart .nor {
-    width: 140px;
     height: 105px
 }
 

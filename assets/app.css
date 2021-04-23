@@ -474,9 +474,7 @@ header .openmenubox .rightbox .btnfoot {
     width: 250px
 }
 
-header .openmenubox .leftbox .btnfoot .cart,
 header .openmenubox .leftbox .btnfoot .file,
-header .openmenubox .rightbox .btnfoot .cart,
 header .openmenubox .rightbox .btnfoot .file {
     position: relative;
     display: inline-block;
@@ -484,38 +482,26 @@ header .openmenubox .rightbox .btnfoot .file {
     margin: 20px
 }
 
-header .openmenubox .leftbox .btnfoot .cart .hov,
-header .openmenubox .leftbox .btnfoot .cart .nor,
 header .openmenubox .leftbox .btnfoot .file .hov,
 header .openmenubox .leftbox .btnfoot .file .nor,
-header .openmenubox .rightbox .btnfoot .cart .hov,
-header .openmenubox .rightbox .btnfoot .cart .nor,
 header .openmenubox .rightbox .btnfoot .file .hov,
 header .openmenubox .rightbox .btnfoot .file .nor {
     position: absolute
 }
 
-header .openmenubox .leftbox .btnfoot .cart .hov,
 header .openmenubox .leftbox .btnfoot .file .hov,
-header .openmenubox .rightbox .btnfoot .cart .hov,
 header .openmenubox .rightbox .btnfoot .file .hov {
     opacity: 0
 }
 
-header .openmenubox .leftbox .btnfoot .cart .nor,
-header .openmenubox .leftbox .btnfoot .cart:hover .hov,
 header .openmenubox .leftbox .btnfoot .file .nor,
 header .openmenubox .leftbox .btnfoot .file:hover .hov,
-header .openmenubox .rightbox .btnfoot .cart .nor,
-header .openmenubox .rightbox .btnfoot .cart:hover .hov,
 header .openmenubox .rightbox .btnfoot .file .nor,
 header .openmenubox .rightbox .btnfoot .file:hover .hov {
     opacity: 1
 }
 
-header .openmenubox .leftbox .btnfoot .cart:hover .nor,
 header .openmenubox .leftbox .btnfoot .file:hover .nor,
-header .openmenubox .rightbox .btnfoot .cart:hover .nor,
 header .openmenubox .rightbox .btnfoot .file:hover .nor {
     opacity: 0
 }
@@ -524,12 +510,6 @@ header .openmenubox .leftbox .btnfoot .file,
 header .openmenubox .rightbox .btnfoot .file {
     width: 50px;
     height: 65px
-}
-
-header .openmenubox .leftbox .btnfoot .cart,
-header .openmenubox .rightbox .btnfoot .cart {
-    width: 75px;
-    height: 60px
 }
 
 header .openmenubox .leftbox .bg,
@@ -607,17 +587,10 @@ header .openmenubox .rightbox .btnfoot .btnlogo {
     left: 10px
 }
 
-header .openmenubox .rightbox .btnfoot .cart,
 header .openmenubox .rightbox .btnfoot .file {
     position: absolute;
     top: 50px;
     margin: 0
-}
-
-header .openmenubox .rightbox .btnfoot .cart {
-    right: 20px;
-    width: 45px;
-    height: 35px
 }
 
 header .openmenubox .rightbox .btnfoot .file {
@@ -910,7 +883,6 @@ footer.active {
         width: 150px
     }
 
-    header .openmenubox .leftbox .btn .cart,
     header .openmenubox .leftbox .btn .file {
         margin: 15px
     }
@@ -918,11 +890,6 @@ footer.active {
     header .openmenubox .leftbox .btn .file {
         width: 35px;
         height: 46px
-    }
-
-    header .openmenubox .leftbox .btn .cart {
-        width: 55px;
-        height: 45px
     }
 
     header .openmenubox .leftbox {

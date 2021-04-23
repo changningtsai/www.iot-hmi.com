@@ -132,7 +132,6 @@
     top: 0
 }
 
-#trademarkspage .box .rightbox .btn .cart,
 #trademarkspage .box .rightbox .btn .text {
     position: relative;
     display: inline-block;
@@ -150,8 +149,6 @@
     -o-transition: transform .5s
 }
 
-#trademarkspage .box .rightbox .btn .cart .hov,
-#trademarkspage .box .rightbox .btn .cart .nor,
 #trademarkspage .box .rightbox .btn .text .hov,
 #trademarkspage .box .rightbox .btn .text .nor {
     position: absolute;
@@ -161,17 +158,14 @@
     -o-transition: opacity .5s
 }
 
-#trademarkspage .box .rightbox .btn .cart .hov,
 #trademarkspage .box .rightbox .btn .text .hov {
     opacity: 0
 }
 
-#trademarkspage .box .rightbox .btn .cart .nor,
 #trademarkspage .box .rightbox .btn .text .nor {
     opacity: 1
 }
 
-#trademarkspage .box .rightbox .btn .cart:hover,
 #trademarkspage .box .rightbox .btn .text:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -180,12 +174,10 @@
     -o-transform: scale(1)
 }
 
-#trademarkspage .box .rightbox .btn .cart:hover .hov,
 #trademarkspage .box .rightbox .btn .text:hover .hov {
     opacity: 1
 }
 
-#trademarkspage .box .rightbox .btn .cart:hover .nor,
 #trademarkspage .box .rightbox .btn .text:hover .nor {
     opacity: 0
 }
@@ -194,13 +186,6 @@
 #trademarkspage .box .rightbox .btn .text .hov,
 #trademarkspage .box .rightbox .btn .text .nor {
     width: 111px;
-    height: 105px
-}
-
-#trademarkspage .box .rightbox .btn .cart,
-#trademarkspage .box .rightbox .btn .cart .hov,
-#trademarkspage .box .rightbox .btn .cart .nor {
-    width: 140px;
     height: 105px
 }
 

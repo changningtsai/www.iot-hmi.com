@@ -166,7 +166,6 @@
     top: 0
 }
 
-#panelpage .box .rightbox .btn .cart,
 #panelpage .box .rightbox .btn .text {
     position: relative;
     display: inline-block;
@@ -184,8 +183,6 @@
     -o-transition: transform .5s
 }
 
-#panelpage .box .rightbox .btn .cart .hov,
-#panelpage .box .rightbox .btn .cart .nor,
 #panelpage .box .rightbox .btn .text .hov,
 #panelpage .box .rightbox .btn .text .nor {
     position: absolute;
@@ -195,17 +192,14 @@
     -o-transition: opacity .5s
 }
 
-#panelpage .box .rightbox .btn .cart .hov,
 #panelpage .box .rightbox .btn .text .hov {
     opacity: 0
 }
 
-#panelpage .box .rightbox .btn .cart .nor,
 #panelpage .box .rightbox .btn .text .nor {
     opacity: 1
 }
 
-#panelpage .box .rightbox .btn .cart:hover,
 #panelpage .box .rightbox .btn .text:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -214,12 +208,10 @@
     -o-transform: scale(1)
 }
 
-#panelpage .box .rightbox .btn .cart:hover .hov,
 #panelpage .box .rightbox .btn .text:hover .hov {
     opacity: 1
 }
 
-#panelpage .box .rightbox .btn .cart:hover .nor,
 #panelpage .box .rightbox .btn .text:hover .nor {
     opacity: 0
 }
@@ -231,12 +223,6 @@
     height: 105px
 }
 
-#panelpage .box .rightbox .btn .cart,
-#panelpage .box .rightbox .btn .cart .hov,
-#panelpage .box .rightbox .btn .cart .nor {
-    width: 140px;
-    height: 105px
-}
 
 #panelpage .downline {
     position: relative;
