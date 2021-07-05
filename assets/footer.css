@@ -1,0 +1,244 @@
+footer {
+    position: relative;
+    z-index: 20;
+    transition: all .5s .5s;
+    -moz-transition: all .5s .5s;
+    -webkit-transition: all .5s .5s;
+    -o-transition: all .5s .5s
+}
+
+footer.active {
+    z-index: 19
+}
+
+#footerpage {
+    position: relative
+}
+
+#footerpage .footertop {
+    position: relative;
+    height: 105px;
+    width: 100%
+}
+
+#footerpage .footertop .pic1,
+#footerpage .footertop .pic2 {
+    position: absolute;
+    width: 355px;
+    height: 105px;
+    bottom: -1px
+}
+
+#footerpage .footertop .pic3 {
+    display: none
+}
+
+#footerpage .footertop .pic1 {
+    left: 0
+}
+
+#footerpage .footertop .pic2 {
+    right: 0
+}
+
+#footerpage .footertop .pic2.hide {
+    display: none
+}
+
+#footerpage .gotop {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 50px;
+    right: 120px;
+    cursor: pointer
+}
+
+#footerpage .gotop .hov,
+#footerpage .gotop .nor {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+#footerpage .gotop .hov {
+    opacity: 1
+}
+
+#footerpage .gotop .nor,
+#footerpage .gotop:hover .hov {
+    opacity: 0
+}
+
+#footerpage .gotop:hover .nor {
+    opacity: 1
+}
+
+#footerpage .gotop.down {
+    top: 150px
+}
+
+#footerpage .footerbox {
+    background: #003B87;
+    padding: 30px 0
+}
+
+#footerpage .footerbox .footerlogo {
+    margin: 50px auto;
+    width: 220px;
+    /*height: 50px*/
+}
+
+#footerpage .footerbox .footerlogo img {
+    height: 100%
+}
+
+#footerpage .footerbox .footertext {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Avenir Next, Avenir, Arial
+}
+
+#footerpage .footerbox .footermenu {
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+    text-align: center
+}
+
+#footerpage .footerbox .footermenu .list {
+    font-size: 19px;
+    font-family: Avenir Next, Avenir, Arial;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px
+}
+
+#footerpage .footerbox .footermenu .list a,
+#footerpage .footerbox .footermenu .list a:hover {
+    text-decoration: none
+}
+
+#footerpage .footerbox .footermenu .list .name {
+    color: #fff;
+    padding: 0 0 10px;
+    letter-spacing: 2px;
+    font-family: Avenir Next, Avenir, Arial;
+    font-weight: 500
+}
+
+#footerpage .footerbox .footermenu .list .line {
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s
+}
+
+#footerpage .footerbox .footermenu .list.active .line,
+#footerpage .footerbox .footermenu .list:hover .line {
+    width: 75%;
+    background: #7CCAD1;
+}
+
+@media (max-width:1200px) {
+    #footerpage .gotop.down {
+        right: 20px;
+        top: 120px
+    }
+
+}
+
+@media (max-width:992px) {
+    #footerpage .gotop.down {
+        top: 90px
+    }
+
+    #footerpage .footertop {
+        height: 74px
+    }
+
+    #footerpage .footertop .pic1,
+    #footerpage .footertop .pic2 {
+        width: 250px;
+        height: 74px
+    }
+
+    #footerpage .footerbox .footermenu .list {
+        margin: 20px
+    }
+
+}
+
+@media (max-width:768px) {
+    #footerpage {
+        margin-top: 3rem;
+    }
+
+    #footerpage .footertop {
+        height: auto;
+        overflow: hidden
+    }
+
+    #footerpage .footertop .pic1,
+    #footerpage .footertop .pic2 {
+        display: none
+    }
+
+    #footerpage .footertop .pic3 {
+        display: block;
+        width: calc(100% + 1px)
+    }
+
+    #footerpage .footertop .pic3 img {
+        width: 100%
+    }
+
+    #footerpage .gotop,
+    #footerpage .gotop.down {
+        top: 50px;
+        right: 20px;
+        width: 35px;
+        height: 35px
+    }
+
+    #footerpage .gotop.down .hov,
+    #footerpage .gotop.down .nor,
+    #footerpage .gotop .hov,
+    #footerpage .gotop .nor {
+        width: 35px;
+        height: 35px
+    }
+
+    #footerpage .footerbox {
+        padding: 70px 0 30px
+    }
+
+    #footerpage .footerbox .footermenu .list {
+        display: table;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 30px auto
+    }
+
+    #footerpage .footerbox .footermenu .list .name {
+        padding: 0 5px 10px
+    }
+
+    #footerpage .footerbox .footermenu .list.active .line {
+        width: 70%
+    }
+
+    #footerpage .footerbox .footertext {
+        letter-spacing: 0
+    }
+
+}

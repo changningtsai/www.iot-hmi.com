@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"><title>READ US - Immense Oak Technology</title>
-  <meta property="og:title" content="READ US - Immense Oak Technology" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="news" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><title>READ US - Immense Oak Technologies</title>
+  <meta property="og:title" content="READ US - Immense Oak Technologies" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="news" />
   <meta property="og:description" content="news" /><meta property="og:image" content="/images/iot/logo-15.png" />
   <meta name="twitter:image" content="/images/iot/logo-15.png" /><meta name="theme-color" content="#ffffff" />
   <meta name="msapplication-TileColor" content="#2b5797" />
@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="/assets/main.css">
   -->
   <link rel="stylesheet" href="/assets/app.css" />
+  <link rel="stylesheet" href="/assets/header.css" />
+  <link rel="stylesheet" href="/assets/footer.css" />
+  <link rel="stylesheet" href="/assets/fonts.css" />
+  
   <script src="/assets/app.js"></script>
   <link rel="stylesheet" href="/assets/list.css" />
     
@@ -36,7 +40,8 @@
       <img class="img-responsive" src="/images/iot/celmenu2.svg" />
     </div>
   </div>
-  <div class="headlist" :class="{ 'active': $store.state.opencelmenu }"><div class="list">
+  <div class="headlist">
+    <!--<div class="list">
       <div class="name">
         <div class="tt">My HMI Solutions</div>
       </div>
@@ -58,23 +63,60 @@
           </a>
         </div>
       </div>
-    </div><div class="list">
-      <div class="name"><div class="tt">My HMI Resources</div></div><div class="secbox">
-        <div class="seclist"><a href="/documentation/">
+    </div>-->
+    <div class="list">
+      <div class="name"><div class="tt">PRODUCT</div></div><div class="secbox">
+        <div class="seclist"><a href="/samples/ubique_panel/">
             <div class="cc"></div>
-            <div class="name">Documentation</div>
-          </a></div><div class="seclist"><a href="/videos/">
+            <div class="name">Ubique Panel</div>
+          </a></div><div class="seclist"><a href="/signum_panel/">
             <div class="cc"></div>
-            <div class="name">Videos</div>
-          </a></div><div class="seclist"><a href="/downloads/">
+            <div class="name">Signum Panel</div>
+          </a></div><div class="seclist"><a href="/">
             <div class="cc"></div>
-            <div class="name">Downloads</div>
-          </a></div><div class="seclist"><a href="/issues/">
+            <div class="name">Custom Service</div>
+          </a></div>
+      </div></div><div class="list">
+      <div class="name"><div class="tt">TECHNOLOGY</div></div><div class="secbox">
+        <div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">ADE</div>
+          </a></div><div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">Ubique Panel</div>
+          </a></div>
+      </div></div><div class="list">
+      <div class="name"><div class="tt">VIDEO</div></div><div class="secbox">
+        <div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">Educational Videos</div>
+          </a></div><div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">Promotional Videos</div>
+          </a></div>
+      </div></div><div class="list">
+      <div class="name"><div class="tt">DOWNLOAD</div></div><div class="secbox">
+        <div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">ADE</div>
+          </a></div><div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">XXX</div>
+          </a></div>
+      </div></div><div class="list">
+      <div class="name"><div class="tt">DOCUMENTATION</div></div><div class="secbox">
+        <div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">AAA</div>
+          </a></div><div class="seclist"><a href="/">
+            <div class="cc"></div>
+            <div class="name">BBB</div>
+          </a></div>
+      </div></div><div class="list">
+      <div class="name"><div class="tt">SUPPORT</div></div><div class="secbox">
+        <div class="seclist"><a href="/">
             <div class="cc"></div>
             <div class="name">Issues</div>
-          </a></div><div class="seclist"><a href="/samples/">
-            <div class="cc"></div>
-            <div class="name">Samples</div>
           </a></div>
       </div></div>
   </div>
@@ -90,6 +132,15 @@
       <div class="title">
         <div class="tt">
           <div class="word">READ US</div>
+          <!-- test svg not work yet
+          <div class="word">
+            <div class="svg-container-responsive">
+              <svg class="svg-test">
+                <text x="0" y="15">READ US</text>
+              </svg>
+            </div>
+          </div>
+          -->
           <div class="line">
             <div class="sss">
               <img class="img-responsive" src="/images/iot/sss.svg" />
@@ -99,19 +150,6 @@
         </div>
         <div class="decoration1">
           <div class="decoration2">
-            <!--
-            <button class="rbtn">
-              <img
-                class="img-responsive"
-                src="/images/iot/inputpic.svg"
-              /></button
-            ><input
-              id="searchlist"
-              type="text"
-              placeholder="Search"
-              name="searchlist"
-            />
-            -->
           </div>
           <div class="pic">
             <img class="img-responsive" src="/images/iot/inputright.svg" />

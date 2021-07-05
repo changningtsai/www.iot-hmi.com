@@ -46,8 +46,8 @@
 
 #listpage .box,
 #listpage .title {
-    margin: 0 15vw 0 15vw;
-    width: 70vw;
+    margin: 0 15% 0 15%;
+    width: 70%;
 }
 
 #listpage .title .decoration1,
@@ -70,6 +70,15 @@
     display: block;
     font-family: 'Roboto';
     font-weight: 700
+}
+
+#listpage .title .tt .word .svg-container-responsive {
+    height: auto;
+    max-width: 100%;
+}
+
+#listpage .title .tt .word .svg-test {
+    height: 100%;
 }
 
 #listpage .title .tt .line {
@@ -309,6 +318,34 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    #listpage .title .tt .line {
+        display: none;
+    }
+    
+    #listpage .title .tt .line .sss {
+        display: none;
+    }
+    
+    #listpage .title .tt .line .ll {
+    }
+    
+    #listpage .title .decoration1 {
+    }
+    
+    #listpage .title .decoration2 {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-radius: 5px;
+        padding: 0 0 0 5px;
+        width: calc(100% - 2px);
+        height: auto;
+    }    
+    
+    #listpage .title .pic {
+        display: none;
+    }
+    
 }
 
 @media (max-width:550px) {
@@ -318,4 +355,41 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    #listpage {
+        padding: 150px 0 0;
+    }
+
+    #listpage .box, #listpage .title {
+        margin: 0 20px 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    #listpage .title .tt .word {
+        height: 34px;
+        padding: 0;
+    }
+
+    #listpage .box .downlist .bg {
+        width: 100%;
+    }
+
+    #listpage .box .downlist.downtt {
+        display: none
+    }
+
+    #listpage .box .downlist .date,
+    #listpage .box .downlist .title {
+        width: calc(100% - 35px);
+        display: block;
+        margin: 0;
+        text-align: left;
+        font-size: 14px;
+        padding: 5px 45px 5px 5px;
+    }
+
+    #listpage .box .downlist .title .sss {
+        display: none;
+    }
+    
 }
