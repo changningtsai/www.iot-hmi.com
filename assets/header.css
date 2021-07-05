@@ -186,7 +186,7 @@ header .headlist .list {
     vertical-align: top;
     margin: 0 20px;
     padding: 0;
-    max-width: 190px
+    max-width: 190px;
 }
 
 header .headlist .list .name {
@@ -195,7 +195,8 @@ header .headlist .list .name {
     position: relative;
     padding: 0 5px;
     cursor: pointer;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 header .headlist .list .name,
