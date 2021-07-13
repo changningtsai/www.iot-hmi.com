@@ -116,12 +116,10 @@
                         methods: {
                             moveline: function () {
                                 var t = document.documentElement.scrollTop + document.body.scrollTop,
-                                    e = document.querySelector(".leftline").offsetTop,
                                     a = document.querySelector(".tablebox").offsetTop,
                                     r = .8 * window.innerHeight,
                                     o = window.innerHeight;
-                                t > e - r ? $(".leftline").addClass("active") : $(".leftline").removeClass("active");
-                                t > e - r ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
+                                t > a - r ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
                                 var c = window.pageYOffset;
                                 n(document.querySelectorAll(".downlist"), function (t) {
                                     var n = t.offsetTop;

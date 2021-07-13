@@ -115,11 +115,9 @@
                         },
                         methods: {
                             moveline: function () {
-                                var t = document.documentElement.scrollTop + document.body.scrollTop,
-                                    e = document.querySelector(".leftline").offsetTop,
-                                    r = .8 * window.innerHeight,
-                                    o = window.innerHeight;
-                                t > e - r ? $(".leftline").addClass("active") : $(".leftline").removeClass("active");
+                                var t = document.documentElement.scrollTop + document.body.scrollTop;
+                                var r = .8 * window.innerHeight;
+                                var o = window.innerHeight;
                                 var c = window.pageYOffset;
                                 n(document.querySelectorAll(".downlist"), function (t) {
                                     var n = t.offsetTop;

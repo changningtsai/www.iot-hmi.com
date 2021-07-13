@@ -3,170 +3,14 @@
     position: relative;
 }
 
-#listpage .leftline {
-    position: absolute;
-    top: 278px;
-    left: 0;
-    height: 11px;
-    width: 200px
-}
 
-#listpage .leftline .line,
-#listpage .leftline .sss {
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#listpage .leftline .line {
-    width: 20px;
-    height: 1px;
-    background: #000;
-    position: absolute
-}
-
-#listpage .leftline .sss {
-    position: absolute;
-    height: 11px;
-    width: 11px;
-    left: 20px;
-    top: -5px
-}
-
-#listpage .leftline.active .line,
-#listpage .leftline:hover .line {
-    width: 175px
-}
-
-#listpage .leftline.active .sss,
-#listpage .leftline:hover .sss {
-    left: 170px
-}
-
-#listpage .box,
-#listpage .title {
-    margin: 0 15% 0 15%;
-    width: 70%;
-}
-
-#listpage .title .decoration1,
-#listpage .title .tt {
-    display: inline-block;
-    vertical-align: top
-}
-
-#listpage .title .tt {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 43px;
-    letter-spacing: 5px;
-    text-transform: uppercase
-}
-
-#listpage .title .tt .word {
-    height: 49px;
-    padding: 0 30px 0 0;
-    display: block;
-    font-family: 'Roboto';
-    font-weight: 700
-}
-
-#listpage .title .tt .word .svg-container-responsive {
-    height: auto;
-    max-width: 100%;
-}
-
-#listpage .title .tt .word .svg-test {
-    height: 100%;
-}
-
-#listpage .title .tt .line {
-    background: url(/images/iot/titleline.svg) 100% 0 no-repeat;
-    height: 30px;
-    width: 100%;
-    position: relative
-}
-
-#listpage .title .tt .line .sss {
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    left: 0;
-    bottom: -5px
-}
-
-#listpage .title .tt .line .ll {
-    width: calc(100% - 27px);
-    height: 30px;
-    border-bottom: 1px solid #000
-}
-
-#listpage .title .decoration1 {
-    width: 330px;
-    height: 50px;
-    margin: 0 0 0 -5px
-}
-
-#listpage .title .decoration2 {
-    width: 305px;
-    height: 50px;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    padding: 8px 0 0;
-    margin: 0 -5px 0 0
-}
-
-#listpage .title .decoration2 .rbtn,
-#listpage .title .decoration2 input {
-    display: inline-block;
-    vertical-align: middle
-}
-
-#listpage .title .decoration2 .rbtn {
-    width: 35px;
-    height: 30px;
-    cursor: pointer
-}
-
-#listpage .title .decoration2 button {
-    width: 35px;
-    height: 30px;
-    background: none;
-    border: none;
-    outline: none
-}
-
-#listpage .title .decoration2 input {
-    width: 255px;
-    height: 30px;
-    background: none;
-    box-shadow: none;
-    border: none;
-    border-left: 1px solid #5b6670;
-    margin: 0 0 0 5px;
-    padding: 0 0 0 5px;
-    outline: none
-}
-
-#listpage .title .decoration2,
-#listpage .title .pic {
-    display: inline-block;
-    vertical-align: top
-}
-
-#listpage .title .pic {
-    width: 25px;
-    height: 50px
-}
 
 #listpage .box {
+    margin-left:  15%;
+    margin-right: 15%;
+    width: 70%;
     margin-top: calc(10rem / 3);
     /*height: calc(115rem / 3);*/
-}
-
-#listpage .leftline {
-    display: none
 }
 
 #listpage .box .downlist {
@@ -317,35 +161,7 @@
         font-size: 16px;
         margin-top: 5px;
         margin-bottom: 5px;
-    }
-
-    #listpage .title .tt .line {
-        display: none;
-    }
-    
-    #listpage .title .tt .line .sss {
-        display: none;
-    }
-    
-    #listpage .title .tt .line .ll {
-    }
-    
-    #listpage .title .decoration1 {
-    }
-    
-    #listpage .title .decoration2 {
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-radius: 5px;
-        padding: 0 0 0 5px;
-        width: calc(100% - 2px);
-        height: auto;
     }    
-    
-    #listpage .title .pic {
-        display: none;
-    }
-    
 }
 
 @media (max-width:550px) {
@@ -360,14 +176,9 @@
         padding: 150px 0 0;
     }
 
-    #listpage .box, #listpage .title {
+    #listpage .box {
         margin: 0 20px 0 20px;
         width: calc(100% - 40px);
-    }
-
-    #listpage .title .tt .word {
-        height: 34px;
-        padding: 0;
     }
 
     #listpage .box .downlist .bg {

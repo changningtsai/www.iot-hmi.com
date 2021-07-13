@@ -3,47 +3,6 @@
     position: relative;
 }
 
-#samplepage .leftline {
-    position: absolute;
-    top: 278px;
-    left: 0;
-    height: 11px;
-    width: 200px
-}
-
-#samplepage .leftline .line,
-#samplepage .leftline .sss {
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#samplepage .leftline .line {
-    width: 20px;
-    height: 1px;
-    background: #000;
-    position: absolute
-}
-
-#samplepage .leftline .sss {
-    position: absolute;
-    height: 11px;
-    width: 11px;
-    left: 20px;
-    top: -5px
-}
-
-#samplepage .leftline.active .line,
-#samplepage .leftline:hover .line {
-    width: 175px
-}
-
-#samplepage .leftline.active .sss,
-#samplepage .leftline:hover .sss {
-    left: 170px
-}
-
 #samplepage .box,
 #samplepage .title {
     margin: 0 10vw 0 15vw;
@@ -232,7 +191,4 @@
     /*border: 1px solid yellow;*/
 }
 
-#samplepage .leftline {
-    display: none
-}
 

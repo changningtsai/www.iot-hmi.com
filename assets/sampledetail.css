@@ -3,48 +3,6 @@
     position: relative;
 }
 
-#samplepage .leftline {
-    position: absolute;
-    top: 278px;
-    left: 0;
-    height: 11px;
-    width: 200px
-}
-
-#samplepage .leftline .line,
-#samplepage .leftline .sss {
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#samplepage .leftline .line {
-    width: 20px;
-    height: 1px;
-    background: #000;
-    position: absolute
-}
-
-#samplepage .leftline .sss {
-    position: absolute;
-    height: 11px;
-    width: 11px;
-    left: 20px;
-    top: -5px
-}
-
-#samplepage .leftline.active .line,
-#samplepage .leftline:hover .line {
-    width: 175px
-}
-
-#samplepage .leftline.active .sss,
-#samplepage .leftline:hover .sss {
-    left: 170px
-}
-
-#samplepage .box,
 #samplepage .title {
     margin: 0 5vw 0 15vw;
     width: 80vw;
@@ -156,6 +114,9 @@
 }
 
 #samplepage .box {
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 15vw;
     margin-top: calc(10rem / 3);
     margin-bottom: calc(15rem / 3);
     display: flex;
@@ -372,10 +333,6 @@
     font-size: 1.3rem;
     font-weight: 300;
     font-style: italic;
-}
-
-#samplepage .leftline {
-    display: none
 }
 
 #samplepage .box .samplebox .infobox {

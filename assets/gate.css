@@ -3,47 +3,6 @@
     position: relative;
 }
 
-#gatepage .leftline {
-    position: absolute;
-    top: 278px;
-    left: 0;
-    height: 11px;
-    width: 200px
-}
-
-#gatepage .leftline .line,
-#gatepage .leftline .sss {
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s
-}
-
-#gatepage .leftline .line {
-    width: 20px;
-    height: 1px;
-    background: #000;
-    position: absolute
-}
-
-#gatepage .leftline .sss {
-    position: absolute;
-    height: 11px;
-    width: 11px;
-    left: 20px;
-    top: -5px
-}
-
-#gatepage .leftline.active .line,
-#gatepage .leftline:hover .line {
-    width: 175px
-}
-
-#gatepage .leftline.active .sss,
-#gatepage .leftline:hover .sss {
-    left: 170px
-}
-
 #gatepage .box,
 #gatepage .title {
     margin: 0 15vw 0 15vw;
@@ -161,8 +120,4 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-#gatepage .leftline {
-    display: none
 }

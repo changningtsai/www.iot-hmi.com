@@ -78,11 +78,11 @@
                         methods: {
                             movetext: function () {
                                 var e = document.documentElement.scrollTop + document.body.scrollTop;
-                                var t = document.querySelector(".linebox").offsetTop;
+                                //var t = document.querySelector(".linebox").offsetTop;
                                 var n = document.querySelector(".upline").offsetTop;
                                 var o = document.querySelector(".downline").offsetTop;
                                 var r = document.querySelector(".descbox").offsetTop;
-                                var a = document.querySelector(".tablebox").offsetTop;
+                                //var a = document.querySelector(".tablebox").offsetTop;
                                 var i = document.querySelector(".newline").offsetTop;
                                 var v1 = document.getElementById("v1");
                                 var v2 = document.getElementById("v2");
@@ -90,11 +90,11 @@
                                 var v4 = document.getElementById("v4");
                                 var v5 = document.getElementById("v5");
                                 var c = .8 * window.innerHeight;
-                                e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active");
+                                //e > t - c ? $(".linebox").addClass("active") : $(".linebox").removeClass("active");
                                 e > n - c ? $(".upline").addClass("active") : $(".upline").removeClass("active");
                                 e > o - c ? $(".downline").addClass("active") : $(".downline").removeClass("active");
                                 e > r - c ? $(".descbox").addClass("active") : $(".descbox").removeClass("active");
-                                e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
+                                //e > a - c ? $(".tablebox").addClass("active") : $(".tablebox").removeClass("active");
                                 e > i - c ? $(".newline").addClass("active") : $(".newline").removeClass("active");
                                 if ( v5 ) {
                                     var j = document.querySelector(".vn5").offsetTop;
