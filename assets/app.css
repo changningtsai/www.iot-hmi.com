@@ -141,8 +141,8 @@ body#web {
 /* 2021 design */
 
 #page-container-layout .title {
-    margin: 0 15% 0 15%;
-    width: 70%;
+    margin: 0 10vw 0 15vw;
+    width: 75vw;
 }
 
 #page-container-layout .title .decoration1,

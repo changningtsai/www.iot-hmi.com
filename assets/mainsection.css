@@ -3,8 +3,7 @@
     position: relative;
 }
 
-#mainsection .box,
-#mainsection .title {
+#mainsection .box {
     margin: 0 15vw 0 15vw;
     width: 70vw;
 }
@@ -52,36 +51,11 @@
     top: 0
 }
 
-.product_list_title { 
-    font-weight: 700;
-    font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 @media (max-width:1100px) {
-    .product_list_title { 
-        font-weight: 700;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 }
 
 @media (max-width:768px) {
-    .product_list_title { 
-        font-weight: 700;
-        font-size: 16px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
 }
 
 @media (max-width:550px) {
-    .product_list_title { 
-        font-weight: 700;
-        font-size: 14px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
 }
