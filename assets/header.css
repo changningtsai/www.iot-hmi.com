@@ -230,7 +230,8 @@ header .headlist .list .secbox {
     margin: 0;
     padding: 0 0 0 5px;
     height: 1px;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    width: 1px;
     opacity: 0;
     transition: opacity .5s;
     -moz-transition: opacity .5s;
@@ -240,7 +241,8 @@ header .headlist .list .secbox {
 
 header .headlist .list .secbox .seclist {
     margin: 0 0 10px;
-    position: relative
+    position: relative;
+    width: fit-content;
 }
 
 header .headlist .list .secbox .seclist .cc,

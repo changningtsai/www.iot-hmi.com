@@ -191,6 +191,9 @@
     font-size: 1.3rem;
     font-family: 'Roboto';
     font-weight: 700;
+    margin: 0;
+    width: auto;
+    }
 }
 
 #indexpage .downbox .itemcontainer .itemwrapper .item p {
