@@ -101,8 +101,8 @@ header .logo {
     position: fixed;
     width: 150px;
     /*height: px;*/
-    top: 45px;
-    left: 60px
+    top: 2.5rem;
+    left: 3.5rem;
 }
 
 header .logo img {
@@ -153,27 +153,27 @@ header .menu .box .menuicon {
     font-size: 14px;
     color: #fff;
     font-family: Avenir Next;
-    font-weight: 600
+    font-weight: 600;
 }
 
 header .menu:hover .box .menuicon {
-    margin: 0 auto 20px
+    margin: 0 auto 20px;
 }
 
 header .menu:hover .box .menuicon:last-child {
-    margin: 0 auto 5px
+    margin: 0 auto 5px;
 }
 
 header .headlist {
     position: fixed;
-    top: 70px;
-    right: 120px;
-    padding: 10px 0;
-    background: rgba(26, 26, 26, .5)
+    top: 3.5rem;
+    right: 6.5rem;
+    padding: 0.8rem 0;
+    background: rgba(26, 26, 26, .5);
 }
 
 header .headlist:hover {
-    background: rgba(26, 26, 26, .9)
+    background: rgba(26, 26, 26, .9);
 }
 
 header .headlist a,
