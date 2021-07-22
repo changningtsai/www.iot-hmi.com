@@ -32,7 +32,12 @@ body#web {
 }
 
 #panelpage .descbox .title {
-    margin: 0 0 30px
+    margin: 0 0 30px;
+    width: auto;
+}
+
+#panelpage .descbox .title .tt{
+    display: block;
 }
 
 #panelpage .descbox .title .tt .word {
@@ -42,6 +47,8 @@ body#web {
     letter-spacing: 0.8rem;
     text-align: center;
     color: #7CCAD1;
+    height: auto;
+    padding: unset;
 }
 
 #panelpage .descbox .cont {
