@@ -87,22 +87,78 @@ footer.active {
     padding: 30px 0
 }
 
-#footerpage .footerbox .footerlogo {
-    margin: 50px auto;
-    width: 220px;
-    /*height: 50px*/
+#footerpage .footerbox .fi {
+    margin: 2.5rem auto;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
 }
 
-#footerpage .footerbox .footerlogo img {
-    height: 100%
+#footerpage .footerbox .fi .fr1 {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+#footerpage .footerbox .fi .fr1 .fqr{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+#footerpage .footerbox .fi .fr2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 2rem;;
+}
+
+#footerpage .footerbox .fi .fr2 .fc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#footerpage .footerbox .fi .fr2 .fc2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#footerpage .footerbox .fi .fr2 * .fi1 {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+}
+
+#footerpage .footerbox .fi .fr2 * .fi2 {
+    display: flex;
+    margin-left: 1rem;
+    height: 3rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: left;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+#footerpage .footerbox .fi .fr3 {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 8rem;
+}
+
+#footerpage .footerbox .fi .fr3 .flogo {
+    height: 100%;
 }
 
 #footerpage .footerbox .footertext {
-    color: #fff;
-    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
     letter-spacing: 3px;
     text-align: center;
-    font-family: Avenir Next, Avenir, Arial
+    font-family: 'Roboto'
 }
 
 #footerpage .footerbox .footermenu {
@@ -112,8 +168,8 @@ footer.active {
 }
 
 #footerpage .footerbox .footermenu .list {
-    font-size: 19px;
-    font-family: Avenir Next, Avenir, Arial;
+    font-size: 1rem;
+    font-family: 'Roboto';
     font-weight: 500;
     display: inline-block;
     vertical-align: top;
@@ -129,7 +185,7 @@ footer.active {
     color: #fff;
     padding: 0 0 10px;
     letter-spacing: 2px;
-    font-family: Avenir Next, Avenir, Arial;
+    font-family: 'Roboto';
     font-weight: 500
 }
 
