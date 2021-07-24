@@ -18,7 +18,6 @@ $(document).ready(function () {
 
     var videoHtml = `
     <div id="ivideo" class="youtube-responsive-container">
-    /*<iframe src="https://www.youtube-nocookie.com/embed/${sPageURL}/?autoplay=1&mute=1" frameborder="0" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>*/
     <iframe src="https://www.youtube-nocookie.com/embed/${sPageURL}/" frameborder="0" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 `

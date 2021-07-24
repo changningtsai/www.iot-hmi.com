@@ -8,7 +8,7 @@ body#web {
 }
 
 #panelpage {
-    padding: 200px 0 0;
+    padding: 11rem 0 0;
     position: relative;
 }
 
@@ -114,7 +114,7 @@ body#web {
 #panelpage .box {
     width: calc(82% - 150px);
     margin: 0 0 0 15%;
-    padding: 200px 0 0
+    padding: 11rem 0 0;
 }
 
 #panelpage li::before {
