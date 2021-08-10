@@ -275,28 +275,27 @@
     }
         
     #indexpage .slidebox {
-        margin-top: 71px; /* 18 + 35 + 18 */
-        height: 195px;
-        min-height: 195px;
+        margin-top: 5rem;
+        height: 30vw;
+        min-height: 30vw;
     }
 
     #indexpage .slidebox .slidehere {
     }
 
     #indexpage .slidebox .slidehere .sliderComponent {
-        height: 195px;
-        min-height: 195px;
+        height: 30vw;
+        min-height: 30vw;
     }
 
     #crtlRowBtnFrame {
-        top: 80%;
-        left: 90%;
+        top: 70%;
     }
     
     #crtlRowBtnFrame .touchBox {
-        height: 6px;
-        width: 6px;
-        margin: 8px 0;
+        height: 5px;
+        width: 5px;
+        margin: 6px 0;
     }
             
     #indexpage .slogan {
@@ -304,7 +303,8 @@
     }
 
     #indexpage .downbox {
-        margin-top: 3rem;
+        margin-top: 0;
+        margin-bottom: 3rem;
         height: auto;
         display: flex;
         justify-content: space-around;
@@ -313,7 +313,7 @@
     #indexpage .downbox .itemcontainer {
         margin-left: 0;
         margin-top: 0;
-        width: 270px;
+        width: 60vw;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -323,7 +323,6 @@
     
     #indexpage .downbox .itemcontainer .itemwrapper {
         width: 100%;
-        min-height: 50vh;
         margin-top: 3rem;
     }
     
@@ -331,23 +330,26 @@
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .picBg {
+        width: auto;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .picBg img {
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .photo-pc {
+        display: none;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .photo-mobile {
+        display: block;
+        height: 10rem;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .title {
+        font-size: 1.5rem;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item p {
-        font-size: 0.8rem;
-        line-height: 0.4rem;
     }
     
     #indexpage .downbox .itemcontainer .itemwrapper .item .button {
@@ -358,6 +360,13 @@
         padding: 0.4rem 1.5rem;
         border-radius: 1.2rem;
         text-decoration: none;
+    }
+}
+
+
+@media (max-width: 280px) {
+    #crtlRowBtnFrame {
+        display: none;
     }
 }
 

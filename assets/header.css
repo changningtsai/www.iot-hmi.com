@@ -49,11 +49,11 @@ header {
 }
 
 header .celmenu {
-    width: 35px;
-    height: 35px;
+    width: 2rem;
+    height: 2rem;
     position: fixed;
-    top: 18px;
-    left: 10px;
+    top: 1rem;
+    left: 1rem;
     z-index: 20;
     display: none;
     cursor: pointer
@@ -631,12 +631,6 @@ header .openmenubox.active .menubg {
 }
 
 @media (max-width:992px) {
-    header .logo {
-        top: 20px;
-        left: 20px;
-        width: 65px;
-        height: 40px
-    }
 
     header .headlist .list {
         margin: 0 0 0 20px
@@ -716,12 +710,6 @@ header .openmenubox.active .menubg {
         display: block
     }
 
-    header .logo {
-        left: 55px;
-        width: 75px;
-        /*height: 30px*/
-        transform: translateY(-5px);
-    }
 
     header .logo.active {
         display: none
@@ -841,5 +829,27 @@ header .openmenubox.active .menubg {
         display: block;
         background: #fff;
         width: 100%
+    }
+}
+
+
+
+@media (max-width:550px) {
+
+    header .celmenu {
+        width: 2rem;
+        height: 3rem;
+        top: 1rem;
+        left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .logo {
+        width: auto;
+        height: 3rem;
+        top: 1rem;
+        left: 4.5rem;
     }
 }
